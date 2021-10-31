@@ -1,0 +1,92 @@
+{Amuntai|
+Balangan|
+Balikpapan|
+Banjar|
+Banjarbaru|
+Banjarmasin|
+Barabai|
+Barito Kuala|
+Barito Selatan|
+Barito Timur|
+Barito Utara|
+Batulicin|
+Bengkayang|
+Berau|
+Bontang|
+Bulungan|
+Buntok|
+Gunung Mas|
+Hulu Sungai Selatan|
+Hulu Sungai Tengah|
+Hulu Sungai Utara|
+Kandangan|
+Kapuas|
+Kapuas Hulu|
+Kasongan|
+Katingan|
+Kayong Utara|
+Ketapang|
+Kota Tebelian|
+Kotabaru|
+Kotawaringin Barat|
+Kotawaringin Timur|
+Kuala Kapuas|
+Kuala Kurun|
+Kuala Pembuang|
+Kubu|
+Kubu Raya|
+Kutai Barat|
+Kutai Kartanegara|
+Kutai Timur|
+Lamandau|
+Landak|
+Mahakam Ulu|
+Malinau|
+Marabahan|
+Melawi|
+Mempawah|
+Muara Teweh|
+Murung Raya|
+Nanga Bulik|
+Nanga Pinoh|
+Ngabang|
+Nunukan|
+Palangka Raya|
+Pangkalan Bun|
+Paringin|
+Paser|
+Pelaihari|
+Pemangkat|
+Penajam|
+Penajam Paser Utara|
+Pontianak|
+Pulang Pisau|
+Puruk Cahu|
+Putussibau|
+Rantau|
+Samarinda|
+Sambas|
+Sampit|
+Sangatta|
+Sanggau|
+Sekadau|
+Sendawar|
+Seruyan|
+Singkawang|
+Sintang|
+Sukamara|
+Sungai Pinyuh|
+Tabalong|
+Tamiang Layang|
+Tana Paser|
+Tana Tidung|
+Tanah Bumbu|
+Tanah Laut|
+Tanjung Redeb|
+Tanjung Selor|
+Tapin|
+Tarakan|
+Tenggarong|
+Tideng Pale|
+Tumbang Titi|
+Ujoh Bilang}

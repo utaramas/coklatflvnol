@@ -1,0 +1,37 @@
+{Ambon|
+Bobong|
+Bula|
+Buru|
+Buru Selatan|
+Daruba|
+Dobo|
+Halmahera Barat|
+Halmahera Selatan|
+Halmahera Tengah|
+Halmahera Timur|
+Halmahera Utara|
+Jailolo|
+Kepulauan Aru|
+Kepulauan Sula|
+Labuha|
+Langgur|
+Maba|
+Maluku Barat Daya|
+Maluku Tengah|
+Maluku Tenggara|
+Maluku Tenggara Barat|
+Masohi|
+Namlea|
+Namrole|
+Piru|
+Pulau Morotai|
+Sanana|
+Saumlaki|
+Seram Bagian Barat|
+Seram Bagian Timur|
+Ternate|
+Tiakur|
+Tidore Kepulauan|
+Tobelo|
+Tual|
+Weda}

@@ -1,0 +1,1063 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: WP Auto Republish\n"
+"POT-Creation-Date: 2020-11-11 10:26+0530\n"
+"PO-Revision-Date: 2019-01-05 23:35+0530\n"
+"Last-Translator: \n"
+"Language-Team: Sayan Datta <hello@sayandatta.in>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wp-auto-republish.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:28
+msgid "Enable this if you want to auto republish old posts of your blog."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:36
+msgid "5 Minutes"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:37
+msgid "10 Minutes"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:38
+msgid "15 Minutes"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:39
+msgid "20 Minutes"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:40
+msgid "30 Minutes"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:41
+msgid "45 Minutes"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:42
+msgid "1 hour"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:43
+msgid "2 hours"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:44
+msgid "4 hours"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:45
+msgid "6 hours"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:46
+msgid "8 hours"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:47
+msgid "12 hours"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:48
+msgid "24 hours (1 day)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:49
+msgid "48 hours (2 days)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:50
+msgid "72 hours (3 days)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:51
+msgid "120 hours (5 days)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:52
+msgid "168 hours (7 days)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:63
+msgid "Select post republish interval between two post republish event."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:71
+msgid "Upto 1 hour"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:72
+msgid "Upto 2 hours"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:73
+msgid "Upto 4 hours"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:74
+msgid "Upto 6 hours"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:75
+msgid "Upto 8 hours"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:76
+msgid "Upto 12 hours"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:77
+msgid "Upto 24 hours"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:88
+msgid ""
+"Select randomness interval from here which will be added to minimum "
+"republish interval."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:96
+msgid "First Position"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:97
+msgid "Second Position"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:107
+msgid ""
+"Select the position of republished post (choosing the 2nd position will "
+"leave the most recent post in 1st place)."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:120
+msgid "Set the starting time period for republish old posts from here."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:133
+msgid "Set the ending time period for republish old posts from here."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:141
+msgid "Sunday"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:142
+msgid "Monday"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:143
+msgid "Tuesday"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:144
+msgid "Wednesday"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:145
+msgid "Thursday"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:146
+msgid "Friday"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:147
+msgid "Saturday"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:165
+msgid "Select the weekdays when you want to republish old posts."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:173
+msgid "Disable"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:174
+msgid "Before Content"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:175
+msgid "After Content"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:185
+msgid ""
+"Select how you want to show original published date of the post on frontend."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:198
+msgid "Message before original published date of the post on frontend."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:206
+msgid "30 Days (1 month)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:207
+msgid "45 Days (1.5 months)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:208
+msgid "60 Days (2 months)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:209
+msgid "90 Days (3 months)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:210
+msgid "120 Days (4 months)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:211
+msgid "180 Days (6 months)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:212
+msgid "240 Days (8 months)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:213
+msgid "365 Days (1 year)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:214
+msgid "730 Days (2 years)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:215
+msgid "1095 Days (3 years)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:226
+msgid ""
+"Select the post age for republishing. Post actually published before this, "
+"will be available for republish."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:234
+msgid "Select Old Post First (ASC)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:235
+msgid "Select New Post First (DESC)"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:245
+msgid "Select the method of getting old posts from database."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:261
+msgid "Select post types of which you want to republish."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:269
+msgid "Ignoring all Taxonomies"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:270
+msgid "Including Taxonomies"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:271
+msgid "Excluding Taxonomies"
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:281
+msgid ""
+"Select how you want to include or exclude a post category from republishing. "
+"If you choose excluding, selected taxonomies will be ignored and vice-versa."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:308
+msgid ""
+"Select taxonimies which you want to include to republishing or exclude from "
+"republishing."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:327
+msgid ""
+"Write the post IDs which you want to select forcefully (when you select "
+"excluding) or want to not select forcefully (when you select including)."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:341
+msgid "Enable this if you want to get republish info as an email notification."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:355
+msgid "Enable this if you want to auto send email to the original post author."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:381
+msgid "Select post types for which you want to enable email notification."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:389
+#, php-format
+msgid "%1$s A %2$s - %3$s has been republished on your blog."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:401
+msgid "Use these tags into email subject - "
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:416
+msgid "Use these tags into email body - "
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:416
+msgid "Email body supports HTML."
+msgstr ""
+
+#: includes/Api/Callbacks/ManagerCallbacks.php:428
+msgid ""
+"Enable this if you want to remove all the plugin data from your website."
+msgstr ""
+
+#: includes/Base/Actions.php:41
+msgid "Settings"
+msgstr ""
+
+#: includes/Base/Actions.php:54
+msgid "Try Premium"
+msgstr ""
+
+#: includes/Base/Actions.php:56
+msgid "Support"
+msgstr ""
+
+#: includes/Base/Actions.php:57
+msgid "Donate"
+msgstr ""
+
+#: includes/Base/AdminNotice.php:44
+msgid ""
+"WARNING: As it seems that your permalinks structure contains date, please do "
+"not use WP Auto Republish plugin (see FAQ no. 10) or upgrade to the Premium "
+"version."
+msgstr ""
+
+#: includes/Base/AdminNotice.php:54
+#, php-format
+msgid ""
+"Your version of PHP is below the minimum version of PHP required by %s "
+"plugin. Please contact your host and request that your version be upgraded "
+"to 5.6 or later."
+msgstr ""
+
+#: includes/Base/AdminNotice.php:66
+#, php-format
+msgid ""
+"Thanks for installing %1$s v%2$s plugin. Click <a href=\"%3$s\">here</a> to "
+"configure plugin settings."
+msgstr ""
+
+#: includes/Base/DonateNotice.php:51
+msgid ""
+"Hey, I noticed you've been using WP Auto Republish for more than 2 week – "
+"that’s awesome! If you like WP Auto Republish and you are satisfied with the "
+"plugin, isn’t that worth a coffee or two? Please consider donating. "
+"Donations help me to continue support and development of this free plugin! "
+"Thank you very much!"
+msgstr ""
+
+#: includes/Base/DonateNotice.php:52
+msgid "Donate Now"
+msgstr ""
+
+#: includes/Base/DonateNotice.php:53
+msgid "I already donated"
+msgstr ""
+
+#: includes/Base/DonateNotice.php:54 includes/Base/RatingNotice.php:54
+msgid "Nope&#44; maybe later"
+msgstr ""
+
+#: includes/Base/DonateNotice.php:55
+msgid "I don't want to donate"
+msgstr ""
+
+#: includes/Base/Enqueue.php:138
+msgid "Select categories or tags"
+msgstr ""
+
+#: includes/Base/Enqueue.php:139
+msgid "Select weekdays (required)"
+msgstr ""
+
+#: includes/Base/Enqueue.php:140
+msgid "Select post types (required)"
+msgstr ""
+
+#: includes/Base/Enqueue.php:141
+msgid "Select user roles (required)"
+msgstr ""
+
+#: includes/Base/Enqueue.php:142
+msgid "Select custom taxonomies"
+msgstr ""
+
+#: includes/Base/Enqueue.php:143
+msgid "Enter post or page or custom post ids (comma separated)"
+msgstr ""
+
+#: includes/Base/Enqueue.php:144
+msgid "Saving..."
+msgstr ""
+
+#: includes/Base/Enqueue.php:145
+msgid "Please wait while we are saving your settings..."
+msgstr ""
+
+#: includes/Base/Enqueue.php:146
+msgid "Done!"
+msgstr ""
+
+#: includes/Base/Enqueue.php:147
+msgid "Error!"
+msgstr ""
+
+#: includes/Base/Enqueue.php:148
+msgid "Deleting..."
+msgstr ""
+
+#: includes/Base/Enqueue.php:149
+msgid "Warning!"
+msgstr ""
+
+#: includes/Base/Enqueue.php:150
+msgid "Please wait while we are processing your request..."
+msgstr ""
+
+#: includes/Base/Enqueue.php:151 templates/admin.php:81 templates/admin.php:103
+#: templates/admin.php:125 templates/admin.php:147 templates/admin.php:171
+msgid "Save Settings"
+msgstr ""
+
+#: includes/Base/Enqueue.php:152
+msgid "Settings Saved Successfully!"
+msgstr ""
+
+#: includes/Base/Enqueue.php:153
+msgid "Are you sure that you want to delete this item?"
+msgstr ""
+
+#: includes/Base/Enqueue.php:154
+msgid "Invalid Nonce! We could not process your request."
+msgstr ""
+
+#: includes/Base/Enqueue.php:155
+msgid "OK"
+msgstr ""
+
+#: includes/Base/Enqueue.php:156
+msgid "Confirm"
+msgstr ""
+
+#: includes/Base/Enqueue.php:157
+msgid "Cancel"
+msgstr ""
+
+#: includes/Base/Enqueue.php:158
+msgid "Close"
+msgstr ""
+
+#: includes/Base/Enqueue.php:159
+msgid "Paste Here"
+msgstr ""
+
+#: includes/Base/Enqueue.php:160
+msgid "Import"
+msgstr ""
+
+#: includes/Base/Enqueue.php:161
+msgid "Importing..."
+msgstr ""
+
+#: includes/Base/Enqueue.php:162
+msgid "Please wait..."
+msgstr ""
+
+#: includes/Base/Enqueue.php:163
+msgid "No Logs Found."
+msgstr ""
+
+#: includes/Base/Enqueue.php:164
+msgid "Filter"
+msgstr ""
+
+#: includes/Base/Enqueue.php:165
+msgid "Activating..."
+msgstr ""
+
+#: includes/Base/Enqueue.php:166
+msgid "Deactivating..."
+msgstr ""
+
+#: includes/Base/Enqueue.php:167
+msgid "Activate"
+msgstr ""
+
+#: includes/Base/Enqueue.php:168
+msgid "Deactivate"
+msgstr ""
+
+#: includes/Base/Enqueue.php:169
+msgid "Enabled"
+msgstr ""
+
+#: includes/Base/Enqueue.php:170
+msgid "Disabled"
+msgstr ""
+
+#: includes/Base/PluginTools.php:79
+msgid ""
+"<strong>Settings import failed:</strong> Please upload a valid .json file to "
+"import settings in this website."
+msgstr ""
+
+#: includes/Base/PluginTools.php:83
+msgid ""
+"<strong>Settings import failed:</strong> Please upload a file to import."
+msgstr ""
+
+#: includes/Base/PluginTools.php:182
+msgid "Success! Plugin Settings has been imported successfully."
+msgstr ""
+
+#: includes/Base/RatingNotice.php:51
+msgid ""
+"Hey, I noticed you've been using WP Auto Republish for more than 1 week – "
+"that’s awesome! Could you please do me a BIG favor and give it a <strong>5-"
+"star</strong> rating on WordPress? Just to help us spread the word and boost "
+"my motivation."
+msgstr ""
+
+#: includes/Base/RatingNotice.php:52
+msgid "Ok, you deserve it"
+msgstr ""
+
+#: includes/Base/RatingNotice.php:53
+msgid "I already did"
+msgstr ""
+
+#: includes/Base/RatingNotice.php:55
+msgid "I don't want to rate"
+msgstr ""
+
+#: includes/Core/FetchPosts.php:53
+#, php-format
+msgid "Every %s Minutes"
+msgstr ""
+
+#: includes/Helpers/Ajax.php:42
+msgid "Error: Nonce verification failed!"
+msgstr ""
+
+#: includes/Helpers/Ajax.php:62
+msgid "Error: Requested actions not found!"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: includes/Pages/Dashboard.php:60 includes/Pages/Dashboard.php:69
+msgid "WP Auto Republish"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:70
+msgid "Auto Republish"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:149
+msgid "Enable Auto Republishing?"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:150
+msgid "Run Republish Process in Every:"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:151
+msgid "New Date Time Randomness:"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:152
+msgid "Republish Post to Position:"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:153
+msgid "Start Time for Republishing:"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:154
+msgid "End Time for Republishing:"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:155
+msgid "Select Weekdays to Republish:"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:158
+msgid "Show Original Publication Date:"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:159
+msgid "Original Publication Message:"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:162
+msgid "Post Republish Eligibility Age:"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:163
+msgid "Select Old Posts Order:"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:166
+msgid "Select Post Types to Republish:"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:167
+msgid "Auto Republish Old Posts by:"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:168
+msgid "Select Post Types Taxonomies:"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:169
+msgid "Override Taxonomies Filtering for these Specified Post Types:"
+msgstr ""
+
+#: includes/Pages/Dashboard.php:172
+msgid "Delete Plugin Data on Uninstall?"
+msgstr ""
+
+#: templates/admin.php:21
+msgid ""
+"This plugin helps to revive old posts by resetting the publish date to the "
+"current date."
+msgstr ""
+
+#: templates/admin.php:28
+msgid "Share on Twitter"
+msgstr ""
+
+#: templates/admin.php:31
+msgid "Share on Facebook"
+msgstr ""
+
+#: templates/admin.php:37
+msgid "General"
+msgstr ""
+
+#: templates/admin.php:40
+msgid "Post Options"
+msgstr ""
+
+#: templates/admin.php:45
+msgid "Tools"
+msgstr ""
+
+#: templates/admin.php:48
+msgid "Help"
+msgstr ""
+
+#: templates/admin.php:55
+msgid "Upgrade"
+msgstr ""
+
+#: templates/admin.php:71
+msgid "Configure Settings"
+msgstr ""
+
+#: templates/admin.php:93
+msgid "Display Settings"
+msgstr ""
+
+#: templates/admin.php:115
+msgid "Old Posts Settings"
+msgstr ""
+
+#: templates/admin.php:137
+msgid "Post Types Settings"
+msgstr ""
+
+#: templates/admin.php:161
+msgid "Misc. Options"
+msgstr ""
+
+#: templates/admin.php:186
+msgid "Plugin Tools"
+msgstr ""
+
+#: templates/admin.php:193 templates/admin.php:206
+msgid "Export Settings"
+msgstr ""
+
+#: templates/admin.php:196
+msgid ""
+"Export the plugin settings for this site as a .json file. This allows you to "
+"easily import the configuration into another site."
+msgstr ""
+
+#: templates/admin.php:213
+msgid "Copy"
+msgstr ""
+
+#: templates/admin.php:216
+msgid "Copied!"
+msgstr ""
+
+#: templates/admin.php:223 templates/admin.php:237
+msgid "Import Settings"
+msgstr ""
+
+#: templates/admin.php:226
+msgid ""
+"Import the plugin settings from a .json file. This file can be obtained by "
+"exporting the settings on another site using the form above."
+msgstr ""
+
+#: templates/admin.php:244
+msgid "Paste"
+msgstr ""
+
+#: templates/admin.php:251 templates/admin.php:263
+msgid "Reset Settings"
+msgstr ""
+
+#: templates/admin.php:254
+msgid "WARNING:"
+msgstr ""
+
+#: templates/admin.php:256
+msgid ""
+"Resetting will delete all custom options to the default settings of the "
+"plugin in your database."
+msgstr ""
+
+#: templates/admin.php:259
+msgid ""
+"It will delete all the data relating to this plugin settings. You have to re-"
+"configure this plugin again. Do you want to still continue?"
+msgstr ""
+
+#: templates/admin.php:261
+msgid "Success! Plugin Settings reset successfully."
+msgstr ""
+
+#: templates/admin.php:274
+msgid "Plugin Help"
+msgstr ""
+
+#: templates/admin.php:280
+msgid "Do you need help with this plugin? Here are some FAQ for you:"
+msgstr ""
+
+#: templates/admin.php:284
+#, php-format
+msgid "How this %s plugin works?"
+msgstr ""
+
+#: templates/admin.php:287
+msgid ""
+"This plugin is mainly based on WordPress Cron system to republish your old "
+"evergreen posts. It will generate republish events when plugin is instructed "
+"to republish a post. It is designed in a way to easily work with any server "
+"enviroment. If still it not works, please contact your hosting provider to "
+"increase server resources."
+msgstr ""
+
+#: templates/admin.php:291
+msgid "WordPress Cron is disabled on my website. What can I do?"
+msgstr ""
+
+#: templates/admin.php:294
+#, php-format
+msgid ""
+"This plugin is heavily based on WP Cron. If it is disabled on your website "
+"which is required by %1$s plugin, please enable native WP Cron or follow "
+"this <a href=\"%2$s\" target=\"_blank\">tutorial</a> to enable server level "
+"PHP Cron instead with an interval of less than Republish Interval option."
+msgstr ""
+
+#: templates/admin.php:303
+msgid ""
+"Native WordPress Cron is currentlly disabled on your website. Please enable "
+"it or follow the upper mentioned tutorial."
+msgstr ""
+
+#: templates/admin.php:312
+msgid ""
+"WordPress Cron is also enabled but still the plugin is not working properly. "
+"What to do next?"
+msgstr ""
+
+#: templates/admin.php:315
+#, php-format
+msgid ""
+"Please install WP Crontrol plugin and go to Tools > Cron Events. It should "
+"show a error notice there. You have to enable the WordPress alternate cron "
+"method, to get it properly woking. Just paste this line %1$s after the lines "
+"containing your database credentials in %2$s file. After that you can delete "
+"the WP Crontorl plugin."
+msgstr ""
+
+#: templates/admin.php:319
+msgid ""
+"Plugin sometimes fails or misses to republish a particular post at a "
+"specified time. What is the reason?"
+msgstr ""
+
+#: templates/admin.php:322
+#, php-format
+msgid ""
+"This plugin is based on WP Cron which depends on the traffic volume of your "
+"website. If you have low traffic, there may be chances to miss any republish "
+"job. To avoid this, please disable native WP Cron and follow this <a href="
+"\"%s\" target=\"_blank\">tutorial</a> to enable server level PHP Cron "
+"instead with an interval of less than Republish Interval option."
+msgstr ""
+
+#: templates/admin.php:326
+msgid ""
+"Doesn’t changing the timestamp affect permalinks that include dates using "
+"this plugin?"
+msgstr ""
+
+#: templates/admin.php:329
+#, php-format
+msgid ""
+"If your permalinks structure contains date, please use %1$s instead of %2$s "
+"respectively if you are using premium version. If you are using free version "
+"then please disable this plugin or upgrade to Premium version to avoid SEO "
+"issues."
+msgstr ""
+
+#: templates/admin.php:336
+msgid ""
+"I have some custom taxonomies associated with posts or pages or any custom "
+"post types but they are not showing on settings dropdown. OR, Somehow custom "
+"post types republishing are now stopped suddenly. What to do next?"
+msgstr ""
+
+#: templates/admin.php:339
+msgid ""
+"Free version of this plugin has some limitation. You can republish a "
+"particular post of a custom post type upto 3 times. After that plugin "
+"doesn't republish those posts anymore. You have to use Premium version of "
+"this plugin to use it more than 3 times for custom post types. Also, Post "
+"and Page do not have such limitations in the free version. Taxonomies, other "
+"than Category and Post Tags, are available only on premium version."
+msgstr ""
+
+#: templates/admin.php:343
+msgid ""
+"I am using GoDaddy managed hosting and plugin is not working properly. What "
+"to do next?"
+msgstr ""
+
+#: templates/admin.php:346
+msgid ""
+"As GoDaddy Managed Hosting does not allow to use server level cron, you have "
+"to use WordPress default cron or alternate cron method, to get it properly "
+"woking. Just follow the FAQ no. 3. Otherwise you can use other external cron "
+"services to solve this issue."
+msgstr ""
+
+#: templates/admin.php:350
+msgid ""
+"I have just installed this plugin and followed all previous guides but still "
+"it is not working properly. What to do?"
+msgstr ""
+
+#: templates/admin.php:353
+#, php-format
+msgid ""
+"At first, properly configure plugin settings. You can know more details "
+"about every settings hovering the mouse over the question mark icon next to "
+"the settings option. After that, Please wait some time to allow plugin to "
+"run republish process with an interval configured by you from plugin "
+"settings. If still not working, go to Tools > Plugins Tools > Import "
+"Settings > Copy and then open Pastebin.com or GitHub Gist and create a paste "
+"or gist with the copied data and send me the link using Contact page or open "
+"a support on WordPress.org forums (only for free version users). Here are "
+"some common <a href=\"%s\" target=\"_blank\">cron problems</a> related to "
+"WordPress."
+msgstr ""
+
+#: templates/admin.php:357
+msgid ""
+"Plugin is showing a warning notice to disable the plugin after activation. "
+"What is the reason?"
+msgstr ""
+
+#: templates/admin.php:360
+#, php-format
+msgid ""
+"Currently you are using original post published information in your post "
+"permalinks (Settings > Permalinks). But this plugin reassign a current date "
+"to republish a post. So, the permalink will be changed after republish. It "
+"may cause SEO issues. It will be safe not to use free version of this plugin "
+"in such situation. But Premium version you can use %1$s instead of %2$s to "
+"solve this issue."
+msgstr ""
+
+#: templates/admin.php:364
+msgid ""
+"Plugin is showing a PHP fatal error after enabling the Premium version. How "
+"to fix this?"
+msgstr ""
+
+#: templates/admin.php:367
+msgid ""
+"Please deactivate the free version of this plugin first from plugins page, "
+"then activate the premium version. It should work as expected."
+msgstr ""
+
+#: templates/admin.php:389
+msgid "Custom"
+msgstr ""
+
+#: templates/admin.php:393 templates/admin.php:398
+msgid "Buy me a coffee!"
+msgstr ""
+
+#: templates/admin.php:403
+#, php-format
+msgid ""
+"Thank you for using %s. If you found the plugin useful buy me a coffee! Your "
+"donation will motivate and make me happy for all the efforts. You can donate "
+"via PayPal."
+msgstr ""
+
+#: templates/admin.php:424
+msgid "Upgrade to Premium Now!"
+msgstr ""
+
+#: templates/admin.php:429
+msgid "Upgrade to the premium version and get the following features"
+msgstr ""
+
+#: templates/admin.php:433
+msgid "Custom Post types & Taxonomies"
+msgstr ""
+
+#: templates/admin.php:436
+msgid "Individual & Scheduled Republishing"
+msgstr ""
+
+#: templates/admin.php:439
+msgid "Date Time Range Based Republishing"
+msgstr ""
+
+#: templates/admin.php:442
+msgid "Custom Post Republish Interval"
+msgstr ""
+
+#: templates/admin.php:445
+msgid "Custom Title for each Republish Event"
+msgstr ""
+
+#: templates/admin.php:448
+msgid "Automatic Cache Plugin Purge Support"
+msgstr ""
+
+#: templates/admin.php:451
+msgid "Can use New Dates in Post Permalinks"
+msgstr ""
+
+#: templates/admin.php:454
+msgid "Change Post Status after Republish"
+msgstr ""
+
+#: templates/admin.php:457
+msgid "One Click Instant Republish & Clone"
+msgstr ""
+
+#: templates/admin.php:460
+msgid "Email Notification upon Republishing"
+msgstr ""
+
+#: templates/admin.php:463
+msgid "Priority Email Support & many more.."
+msgstr ""
+
+#: templates/admin.php:473
+msgid "Start Trial"
+msgstr ""
+
+#: templates/admin.php:482
+msgid "Upgrade Now"
+msgstr ""
+
+#: templates/admin.php:491
+msgid "My Other Plugins!"
+msgstr ""
+
+#: templates/admin.php:501
+msgid ""
+"Display last update date and time on pages and posts very easily with "
+"'dateModified' Schema Markup."
+msgstr ""
+
+#: templates/admin.php:513
+msgid ""
+"Ultimate Facebook Comments Solution with instant email notification for any "
+"WordPress Website. Everything is customizable."
+msgstr ""
+
+#: templates/admin.php:525
+msgid ""
+"Add any page extension like .html, .php, .aspx, .htm, .asp, .shtml only to "
+"wordpress pages very easily (tested on Yoast SEO, All in One SEO Pack, Rank "
+"Math, SEOPresss and Others)."
+msgstr ""
+
+#: templates/admin.php:537
+msgid ""
+"Simple Posts Ticker is a small tool that shows your most recent posts in a "
+"marquee style."
+msgstr ""
+
+#: vendor/deliciousbrains/wp-background-processing/classes/wp-background-process.php:425
+#, php-format
+msgid "Every %d Minutes"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/wp-auto-republish/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"The WP Auto Republish plugin helps revive old posts by resetting the publish "
+"date to the current date. This will push old posts to your front page, the "
+"top of archive pages, and back into RSS feeds. Ideal for sites with a large "
+"repository of evergreen content."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Sayan Datta"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.sayandatta.in"
+msgstr ""

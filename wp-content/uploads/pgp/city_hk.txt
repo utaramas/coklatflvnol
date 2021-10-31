@@ -1,0 +1,554 @@
+{A Kung Ngam Village|
+A Kung Tin|
+A Ma Wat|
+A Shan|
+Aberdeen|
+Ah Kung Kok Fishermen Village|
+Aldrich Village|
+Ap Chau|
+Au Ha|
+Au Pui Wan|
+Au Tau|
+Cha Kwo Ling Village|
+Chai Kek|
+Chap Wai Kon|
+Chau Tau Tsuen|
+Che Ha|
+Chek Keng|
+Chek Nai Ping|
+Cheung Chau|
+Cheung Kong Tsuen|
+Cheung Lek|
+Cheung Lek Mei|
+Cheung Muk Tau|
+Cheung Po Tsuen|
+Cheung Sheung|
+Cheung Shue Tan|
+Cheung Uk Tei|
+Ching Man Village|
+Choi Uk Tsuen|
+Choi Yuen Kok|
+Chow Tin Tsuen|
+Chuk Hang|
+Chuk Hang Tsuen|
+Chuk Yuen|
+Chung Hau|
+Chung Hing San Tsuen|
+Chung Mei San Tsuen|
+Chung Pui San Tsuen|
+Chung Sam Wai|
+Chung Uk Tsuen|
+Discovery Bay|
+Fan Leng Lau|
+Fan Tin Tsuen|
+Fanling Ching Wai|
+Fanling Nam Wai|
+Fanling Pak Wai|
+Fanling Wai|
+Fanling-Sheung Shui|
+Fo Tan|
+Fong Ma Po|
+Fu Tau Chau|
+Fu Tau Wat Village|
+Fu Yung Pei|
+Fui Sha Wai|
+Fui Yiu Ha|
+Fuk Hing Tsuen|
+Fung Chi Tsuen|
+Fung Hang|
+Fung Ka Wai|
+Fung Kat Heung|
+Fung Kong Tsuen|
+Fung Wong San Chuen|
+Fung Wong Wu|
+Fung Yuen|
+Grand View Village|
+Ha Che Tsuen|
+Ha Chuk Yuen|
+Ha Hang|
+Ha Keng Hau|
+Ha Mei San Tsuen|
+Ha Pak Nai Tsuen|
+Ha San Wai|
+Ha Shan Kai Wat|
+Ha Tei Ha|
+Ha Tsuen San Wai|
+Ha Tsuen Shi|
+Ha Wo Che|
+Ha Wo Hang|
+Ha Wong Yi Au|
+Ha Wun Yiu|
+Ha Yau Tin Tsuen|
+Ha Yeung|
+Ha Yuen Leng and Sheung Yuen Leng|
+Hang Ha Po|
+Hang Hau Tsuen|
+Hang Mei Tsuen|
+Hang Tau|
+Hang Tau Tsuen|
+Hau Wong Temple New Village|
+Healthy Village|
+Heung Yuen Wai|
+Hin Tin|
+Hing Wah Village|
+Ho Lek Pui|
+Ho Pui Tsuen|
+Ho Sheung Heung|
+Hoi Ha|
+Hok Tau Wai|
+Holy Cross Path Village|
+Hong Mei Tsuen|
+Hung Tin Tsuen|
+Hung Tso Tin Tsuen|
+Hung Uk Tsuen|
+Hung Yun Tsuen|
+Jardine's Lookout|
+Kai Kuk Shue Ha and Ham Hang Mei|
+Kai Leung|
+Kak Tin|
+Kam Chuk Pai San Tsuen|
+Kam Hing Wai|
+Kam Shan Village|
+Kam Tin San Tsuen|
+Kam Tin Shi|
+Kam Tsin|
+Kam Tsin Wai Tsuen|
+Kan Tau Wai|
+Kap Lung Tsuen|
+Kap Tong|
+Kat Hing Wai|
+Kat O|
+Kau Liu Ha|
+Kau Lung Hang|
+Kau Man Village|
+Kau Tam Tso|
+Kau To|
+Kei Ling Ha Lo Wai|
+Kei Ling Ha San Wai|
+Kennedy Town|
+Kik Yeung Tsuen|
+Kiu Tau Wai|
+Ko Lau Wan|
+Ko Long|
+Ko Po Tsuen|
+Ko Tong|
+Kong Ha|
+Kong Tau San Tsuen|
+Kong Tau Tsuen|
+Kowloon|
+Kuk Po|
+Kwan Lok San Tsuen|
+Kwu Tung|
+Kwun Hang|
+Kwun Tong|
+Kwun Yam Shan|
+Lai Chi Chong|
+Lai Chi Shan|
+Lai Chi Wo|
+Lai Ka Tsz|
+Lai Tau Shek|
+Lam Hau Tsuen|
+Lam Uk Tsuen|
+Lei Pik Shek|
+Lei Uk|
+Lei Uk Tsuen|
+Lei Yue Mun|
+Leung Uk Tsuen|
+Lin Au, Cheng Uk|
+Lin Au, Lei Uk|
+Lin Fa Tei|
+Lin Ma Hang|
+Lin Tong Mei|
+Ling Nam San Tsuen|
+Ling Shan Tsuen|
+Liu Pok|
+Lo So Shing|
+Lo Tik Wan|
+Lo Tsz Tin|
+Lo Uk Tsuen|
+Lo Wai|
+Lo Wu|
+Loi Tung|
+Lok Lo Ha|
+Lok Ma Chau|
+Luen Yick Fishermen Village|
+Luk Chau|
+Luk Keng Chan Uk|
+Luk Keng Wong Uk|
+Luk Tei Tong|
+Lung A Pei|
+Lung Mei|
+Lung Tin Tsuen|
+Ma Chai Hang Tsuen|
+Ma Kwu Lam|
+Ma Liu|
+Ma On Kong Tsuen|
+Ma On Shan|
+Ma Po Mei|
+Ma Shan Village|
+Ma Tin Tsuen|
+Ma Tseuk Leng Ha|
+Ma Tseuk Leng Sheung|
+Ma Tso Lung|
+Ma Tso Lung San Tsuen|
+Ma Wan|
+Ma Wat Tsuen|
+Ma Wat Wai|
+Ma Wo Tsuen|
+Mai Po Lo Wai|
+Mai Po San Tsuen|
+Man Kok Tsui|
+Man Kuk New Tsuen|
+Man Uk Pin|
+Mau Tat|
+Mau Tso Ngam|
+Ming Tak Tong|
+Miu Tin|
+Mo Tat|
+Mo Tat Wan|
+Mong Tseng Tsuen|
+Mong Tseng Wai|
+Mui Shue Hang|
+Mui Tsz Lam|
+Mui Wo|
+Muk Kiu Tau Tsuen|
+Muk Min Tau and Tsiu Hang|
+Muk Wu|
+Nai Chung|
+Nam Chung|
+Nam Hang|
+Nam Hang Tsuen|
+Nam Pin Wai|
+Nam Sha Po|
+Nam Shan Tung|
+Nam Wa Po|
+Nan On Fong Village|
+Ng Ka Tsuen|
+Ng Tung Chai|
+Ng Uk Tsuen|
+Nga Iu Tau Tsun|
+Nga Tsin Wai Tsuen|
+Nga Yiu|
+Nga Yiu Ha|
+Nga Yiu Tau|
+Ngau Chi Wan Tsuen|
+Ngau Hom|
+Ngau Keng Tsuen|
+Ngau Kwu Long|
+Ngau Pei Sha|
+Ngau Shi Wu|
+Ngau Tam Mei|
+Ngong Ping|
+North Lantau|
+O Pui Lung Shan Teng Village|
+O Pui Lung Village|
+On Lung Tsuen|
+Pai Tau Village|
+Pak Fuk Tsuen|
+Pak Kok Kau Tsuen|
+Pak Kok San Tsuen|
+Pak Mong|
+Pak Nai|
+Pak Ngan Heung|
+Pak Ngau Shek Ha Tsuen|
+Pak Ngau Shek Sheung Tsuen|
+Pak Sha O|
+Pak Sha Tsai|
+Pak Sha Tsuen|
+Pak Sha Wo Liu|
+Pak Shek Au|
+Pak Tam Au|
+Pan Chung|
+Pan Chung San Tsuen|
+Pang Ka Tsuen|
+Parts of Shan Tsui|
+Pat Tsz Wo|
+Peng Chau|
+Ping Chau Chau Mei|
+Ping Chau Chau Tau|
+Ping Chau Nai Tau|
+Ping Chau Sha Tau|
+Ping Chau Tai Tong|
+Ping Che|
+Ping Kong|
+Ping Long|
+Ping Shan Chai|
+Ping Shan San Tsuen|
+Ping Shan Tsai|
+Ping Ting Tsuen|
+Ping Yeung|
+Po Kong Tsuen|
+Po Sam Pai|
+Po Toi|
+Po Toi O|
+Pok Fu Lam Tsuen|
+Pok Oi Tsuen|
+Pok Wai|
+Pui Man Tsuen|
+Pun Shan Chau|
+Pun Uk Tsuen|
+Sai Keng|
+Sai Kung|
+Sai Lau Kong|
+Sai O|
+Sai Pin Wai|
+Sai Tau Wai|
+Sam A|
+Sam Ka Tsuen|
+Sam Mun Tsai|
+San Hing Tsuen|
+San Kwai Tin / King To|
+San Lei Uk Tsuen|
+San Lung Tsuen|
+San Lung Wai|
+San Sang Tsuen|
+San Tau Kok|
+San Tin San Wai|
+San Tin Village|
+San Tong|
+San Tsuen|
+San Uk Ka|
+San Uk Ling|
+San Uk Tsai|
+San Uk Tsuen|
+San Wai Tsai|
+Sha Chau Lei Tsuen|
+Sha Kong Tsuen|
+Sha Kong Wai|
+Sha Lo Tung Cheung Uk|
+Sha Lo Tung Lei Uk|
+Sha Po|
+Sha Po Tsuen|
+Sha Tau Kok|
+Sha Tau Kok Market|
+Sha Tin|
+Sha Tin Tau|
+Sha Tin Wai|
+Sham Chung|
+Sham Chung Tsuen|
+Shan Ha Tsuen|
+Shan Ha Wai|
+Shan Liu|
+Shan Mei|
+Shan Pui Tsuen|
+Shan Tsui|
+Shanghai Tsuen|
+Shap Yi Wat|
+She Shan|
+Shek Chung Au|
+Shek Kiu Tau|
+Shek Kong Tsuen|
+Shek Kwu Lung|
+Shek Lung Tsai|
+Shek O|
+Shek O New Village|
+Shek O Village|
+Shek Po Tsuen|
+Shek Tau Wai|
+Shek Wu Tong Tsuen|
+Shek Wu Wai|
+Sheung Che Tsuen|
+Sheung Cheung Wai|
+Sheung Chuk Yuen|
+Sheung Keng Hau|
+Sheung San Wai|
+Sheung Shui Heung|
+Sheung Tsuen|
+Sheung Wo Che|
+Sheung Wo Hang|
+Sheung Wong Yi Au|
+Sheung Wun Yiu|
+Sheung Yau Tin Tsuen|
+Shing Uk Tsuen|
+Shuen Wan Chan Uk|
+Shuen Wan Chim Uk|
+Shuen Wan Lei Uk|
+Shuen Wan Sha Lan|
+Shuen Wan Wai Ha|
+Shui Bin Tsuen|
+Shui Lau Tin Tsuen|
+Shui Mei Tsuen|
+Shui Pin Tsuen|
+Shui Pin Wai|
+Shui Tau Tsuen|
+Shui Tin Tsuen|
+Shui Tsan Tin Tsuen|
+Shui Tsiu Lo Wai|
+Shui Tsiu San Tsuen|
+Shui Wo|
+Shung Ching San Tsuen|
+Shung Him Tong Tsuen|
+Sik Kong Tsuen|
+Sik Kong Wai|
+Siu Kau San Tsuen|
+Siu Lek Yuen|
+Siu Om Shan|
+Small Traders New Village|
+So Lo Pun|
+Sok Kwu Wan|
+Stanley|
+Sze Hai Tsuen|
+Sze Tsz Uk|
+Ta Shek Wu Tsuen|
+Ta Tit Yan|
+Tai Hang|
+Tai Ho|
+Tai Hom Village|
+Tai Hom Woi Tsuen|
+Tai Hong Wai|
+Tai Kau San Tsuen|
+Tai Kei Leng|
+Tai Kek|
+Tai Kiu|
+Tai Kong Po Tsuen|
+Tai Koon Yuen|
+Tai Lam Liu|
+Tai Long|
+Tai Mei Tuk|
+Tai Mon Che|
+Tai O|
+Tai Om|
+Tai Om Shan|
+Tai Peng Tsuen|
+Tai Ping Village|
+Tai Po|
+Tai Po Kau|
+Tai Po Kau Hui|
+Tai Po Mei|
+Tai Po Tau|
+Tai Po Tau Shui Wai|
+Tai Shang Wai|
+Tai Shui Hang|
+Tai Shui Hang Village|
+Tai Tan|
+Tai Tao Tsuen|
+Tai Tau Leng|
+Tai Tei Tong|
+Tai Tong Tsuen|
+Tai Tong Wu|
+Tai Tsang Wai|
+Tai Tung|
+Tai Wai Tsuen|
+Tai Wai Village|
+Tai Wan Kau Tsuen|
+Tai Wo|
+Tai Yuen|
+Tam Shui Hang|
+Tan Ka Wan|
+Tan Kwai Tsuen|
+Tap Mun|
+Tap Mun Fishermen Village|
+Tin Liu|
+Tin Liu Ha|
+Tin Liu Tsuen|
+Tin Sam Tsuen|
+Tin Shui Wai|
+Tin Sum|
+Ting Fook Villas|
+Ting Kok|
+To Kwa Peng|
+To Shek|
+To Tau Wan|
+To Yuen Tung|
+Tong Fong Tsuen|
+Tong Hang|
+Tong Hang Village|
+Tong Kung Leung|
+Tong Ning New San Tsuen|
+Tong Sheung Tsuen|
+Tong Tau Po Tsuen|
+Tong To|
+Tong Yan San Tsuen|
+Tsat Muk Kiu|
+Tsat Sing Kong Tsuen|
+Tseng Tau|
+Tseung Kong Wai|
+Tseung Kwan O New Town|
+Tsin Shui Ma Tau Village|
+Tsing Lung Tsuen|
+Tsiu Keng|
+Tsok Pok Hang|
+Tsuen Wan|
+Tsung Pak Long|
+Tsz Tong Tsuen|
+Tuen Mun New Town|
+Tung Chan Wai|
+Tung Kok Wai|
+Tung Lo Wan|
+Tung O|
+Tung Sam Kei|
+Tung Shan Tsuen|
+Tung Shing Lei|
+Tung Tau Tsuen|
+Tung Tau Wai|
+Tung Tau Wai San Tsuen|
+Tung Tsz|
+Tung Wo Tsuen|
+Uk Tau|
+Victoria City|
+Wa Shan Tsuen|
+Wai Tau Tsuen|
+Wai Tsai Tsuen|
+Wan Tau Kok|
+Wang Hang Tsai Village|
+Wang Hang Tung Village|
+Wang Ling Tau San Tsuen|
+Wang Long|
+Wang Shan Keuk|
+Wang Toi Shan Lo Uk Tsuen|
+Wesley Village|
+Wing Lung Wai|
+Wing Ning Tsuen|
+Wing Ning Village|
+Wing Ning Wai|
+Wing Ping Tsuen|
+Wo Hing Tsuen|
+Wo Hop Shek San Tsuen|
+Wo Liu Hang|
+Wo Tin|
+Wong Chuk Yeung|
+Wong Nai Tau Village|
+Wong Nai Tun Tsuen|
+Wong Uk|
+Wong Uk Tsuen|
+Wong Yue Tan|
+Wu Kai Sha Village|
+Wu Kau Tang|
+Wu Shek Kok|
+Yan Oi San Tsuen|
+Yan Shau Wai|
+Yan Yee San Tsuen|
+Yeung Uk Tsuen|
+Yim Tso Ha and Pok Tau Ha|
+Yin Kong|
+Yin Ngam|
+Ying Lung Wai|
+Ying Pun|
+Ying Pun Ha Chuk Hang|
+Yue Kok|
+Yuen Leng Lei Uk|
+Yuen Leng Yip Uk|
+Yuen Long|
+Yuen Long Kau Hui|
+Yuen Long Town|
+Yuen Tun Ha|
+Yuen Tun Shan|
+Yuk Yat Garden|
+Yung Shu O|
+Yung Shue Au|
+Yung Shue Ha|
+Yung Shue Long|
+Yung Shue Wan|
+Central and Western|
+Eastern|
+Southern|
+Wan Chai|
+Sham Shui Po|
+Kowloon City|
+Wong Tai Sin|
+Yau Tsim Mong|
+Islands|
+Kwai Tsing|
+North|
+Tuen Mun|
+Yuen Long}

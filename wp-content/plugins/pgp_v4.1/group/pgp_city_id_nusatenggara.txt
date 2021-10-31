@@ -1,0 +1,69 @@
+{Alor|
+Amlapura|
+Atambua|
+Baa|
+Badung|
+Bajawa|
+Bangli|
+Belu|
+Betun|
+Bima|
+Borong|
+Buleleng|
+Denpasar|
+Dompu|
+Ende|
+Flores Timur|
+Gerung|
+Gianyar|
+Jembrana|
+Kalabahi|
+Karangasem|
+Kefamenanu|
+Klungkung|
+Kupang|
+Labuan Bajo|
+Larantuka|
+Lembata|
+Lewoleba|
+Lombok Barat|
+Lombok Tengah|
+Lombok Timur|
+Lombok Utara|
+Manggarai|
+Manggarai Barat|
+Manggarai Timur|
+Mangupura|
+Mataram|
+Maumere|
+Mbay|
+Nagekeo|
+Negara|
+Ngada|
+Oelamasi|
+Praya|
+Rote Ndao|
+Ruteng|
+Sabu Raijua|
+Seba|
+Selong|
+Sikka|
+Singaraja|
+Soe|
+Sumba Barat|
+Sumba Barat Daya|
+Sumba Tengah|
+Sumba Timur|
+Sumbawa|
+Sumbawa Barat|
+Sumbawa Besar|
+Tabanan|
+Taliwang|
+Tambolaka|
+Tanjung|
+Timor Tengah Selatan|
+Timor Tengah Utara|
+Waibakul|
+Waikabubak|
+Waingapu|
+Woha}

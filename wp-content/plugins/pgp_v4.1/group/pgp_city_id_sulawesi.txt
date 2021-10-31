@@ -1,0 +1,128 @@
+{Airmadidi|
+Ampana|
+Amurang|
+Andolo|
+Balangnipa|
+Banggai|
+Banggai Kepulauan|
+Bantaeng|
+Barru|
+Batauga|
+Bau-Bau|
+Belopa|
+Benteng|
+Bitung|
+Boalemo|
+Bolaang Mongondow|
+Bolaang Mongondow Selatan|
+Bolaang Mongondow Timur|
+Bolaang Mongondow Utara|
+Bombana|
+Bone|
+Bone Bolango|
+Bontosunggu|
+Boroko|
+Bulukumba|
+Bungku|
+Buol|
+Buranga|
+Buton|
+Buton Utara|
+Donggala|
+Enrekang|
+Gorontalo|
+Gorontalo Utara|
+Gowa|
+Jeneponto|
+Kendari|
+Kepulauan Sangihe|
+Kepulauan Selayar|
+Kepulauan Siau Tagulandang Biaro|
+Kepulauan Talaud|
+Kolaka|
+Kolaka Utara|
+Kolonodale|
+Konawe|
+Konawe Selatan|
+Konawe Utara|
+Kotamobagu|
+Kwandang|
+Labungkari|
+Langara|
+Lasusua|
+Limboto|
+Lolak|
+Luwu|
+Luwu Timur|
+Luwu Utara|
+Luwuk|
+Majene|
+Makale|
+Makassar|
+Malili|
+Mamasa|
+Mamuju|
+Mamuju Utara|
+Manado|
+Marisa|
+Maros|
+Masamba|
+Melonguane|
+Minahasa|
+Minahasa Selatan|
+Minahasa Tenggara|
+Minahasa Utara|
+Molibagu|
+Morowali|
+Muna|
+Ondong Siau|
+Palopo|
+Palu|
+Pangkajene|
+Pangkajene dan Kepulauan|
+Parepare|
+Parigi Moutong|
+Pasangkayu|
+Pasarwajo|
+Pattallassang|
+Pinrang|
+Pohuwato|
+Polewali|
+Polewali Mandar|
+Poso|
+Raha|
+Rantepao|
+Ratahan|
+Rumbia|
+Salakan|
+Sawerigadi|
+Sengkang|
+Sidenreng Rappang|
+Sigi|
+Sigi Biromaru|
+Sinjai|
+Soppeng|
+Sungguminasa|
+Suwawa|
+Tahuna|
+Takalar|
+Tana Toraja|
+Tilamuta|
+Tirawuta|
+Tobadak|
+Tojo Una-Una|
+Toli-Toli|
+Tolitoli|
+Tomohon|
+Tondano|
+Toraja Utara|
+Turikale|
+Tutuyan|
+Unaaha|
+Wajo|
+Wakatobi|
+Wanggudu|
+Wangi-Wangi|
+Watampone|
+Watang Sidenreng|
+Watansoppeng}

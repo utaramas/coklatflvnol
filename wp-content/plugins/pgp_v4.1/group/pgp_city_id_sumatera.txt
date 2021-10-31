@@ -1,0 +1,260 @@
+{Aceh Barat|
+Aceh Barat Daya|
+Aceh Besar|
+Aceh Jaya|
+Aceh Selatan|
+Aceh Singkil|
+Aceh Tamiang|
+Aceh Tengah|
+Aceh Tenggara|
+Aceh Timur|
+Aceh Utara|
+Aek Kanopan|
+Agam|
+Arga Makmur|
+Arosuka|
+Asahan|
+Bagan Siapi-api|
+Balige|
+Banda Aceh|
+Bandar Lampung|
+Bangka|
+Bangka Barat|
+Bangka Selatan|
+Bangka Tengah|
+Bangkinang|
+Bangko|
+Banyuasin|
+Batam|
+Batanghari|
+Batubara|
+Baturaja|
+Batusangkar|
+Belitung|
+Belitung Timur|
+Bener Meriah|
+Bengkalis|
+Bengkulu|
+Bengkulu Selatan|
+Bengkulu Tengah|
+Bengkulu Utara|
+Binjai|
+Bintan|
+Bintuhan|
+Bireuen|
+Blambangan Umpu|
+Blang Kejeren|
+Blangpidie|
+Bukittinggi|
+Bungo|
+Calang|
+Curup|
+Daik|
+Dairi|
+Deli Serdang|
+Dharmasraya|
+Dolok Sanggul|
+Dumai|
+Empat Lawang|
+Gayo Lues|
+Gedong Tataan|
+Gido|
+Gunung Sugih|
+Gunung Tua|
+Gunungsitoli|
+Humbang Hasundutan|
+Idi Rayeuk|
+Indragiri Hilir|
+Indragiri Hulu|
+Indralaya|
+Jambi|
+Kabanjahe|
+Kalianda|
+Kampar|
+Karang Baru|
+Karang Tinggi|
+Karimun|
+Karo|
+Kaur|
+Kepahiang|
+Kepulauan Anambas|
+Kepulauan Mentawai|
+Kepulauan Meranti|
+Kerinci|
+Kisaran|
+Koba|
+Kota Agung|
+Kota Jantho|
+Kota Kayu Agung|
+Kota Kijang|
+Kota Manna|
+Kota Pinang|
+Kotabumi|
+Krui|
+Kuala Tungkal|
+Kuantan Singingi|
+Kutacane|
+Labuhanbatu|
+Labuhanbatu Selatan|
+Labuhanbatu Utara|
+Lahat|
+Lahomi|
+Lampung Barat|
+Lampung Selatan|
+Lampung Tengah|
+Lampung Timur|
+Lampung Utara|
+Langkat|
+Langsa|
+Lebong|
+Lhokseumawe|
+Lhoksukon|
+Lima Puluh Kota|
+Limapuluh|
+Lingga|
+Liwa|
+Lotu|
+Lubuk Basung|
+Lubuk Pakam|
+Lubuk Sikaping|
+Lubuklinggau|
+Mandailing Natal|
+Manggar|
+Martapura|
+Medan|
+Menggala|
+Merangin|
+Mesuji|
+Metro|
+Meulaboh|
+Meureudu|
+Muara Aman|
+Muara Beliti Baru|
+Muara Bulian|
+Muara Bungo|
+Muara Enim|
+Muara Sabak|
+Muara Tebo|
+Muaradua|
+Muaro Jambi|
+Muaro Sijunjung|
+Mukomuko|
+Muntok|
+Musi Banyuasin|
+Musi Rawas|
+Nagan Raya|
+Natuna|
+Nias|
+Nias Barat|
+Nias Selatan|
+Nias Utara|
+Ogan Ilir|
+Ogan Komering Ilir|
+Ogan Komering Ulu|
+Ogan Komering Ulu Selatan|
+Ogan Komering Ulu Timur|
+Padang|
+Padang Aro|
+Padang Lawas|
+Padang Lawas Utara|
+Padang Pariaman|
+Padangpanjang|
+Padangsidempuan|
+Pagar Alam|
+Painan|
+Pakpak Bharat|
+Palembang|
+Pandan|
+Pangkal Pinang|
+Pangkalan Balai|
+Pangkalan Kerinci|
+Pangururan|
+Panyabungan|
+Pariaman|
+Parit Malintang|
+Pasaman|
+Pasaman Barat|
+Pasir Pengaraian|
+Payakumbuh|
+Pekanbaru|
+Pelalawan|
+Pematangsiantar|
+Pesawaran|
+Pesisir Selatan|
+Pidie|
+Pidie Jaya|
+Prabumulih|
+Pringsewu|
+Pulau Punjung|
+Ranai|
+Rantau Prapat|
+Raya|
+Rejang Lebong|
+Rengat|
+Rokan Hilir|
+Rokan Hulu|
+Rupit|
+Sabang|
+Salak|
+Samosir|
+Sarilamak|
+Sarolangun|
+Sawahlunto|
+Sei Rampah|
+Sekayu|
+Selatpanjang|
+Seluma|
+Sengeti|
+Serdang Bedagai|
+Siak|
+Siak Sri Indrapura|
+Sibolga|
+Sibuhuan|
+Sidikalang|
+Sigli|
+Sijunjung|
+Simalungun|
+Simeulue|
+Simpang Ampek|
+Simpang Tiga Redelong|
+Sinabang|
+Singkil|
+Sipirok|
+Siulak|
+Solok|
+Solok Selatan|
+Stabat|
+Subulussalam|
+Suka Makmue|
+Sukadana|
+Sungai Liat|
+Sungaipenuh|
+Tais|
+Takengon|
+Talang Ubi|
+Tanah Datar|
+Tanggamus|
+Tanjung Balai Karimun|
+Tanjung Jabung Barat|
+Tanjung Jabung Timur|
+Tanjung Pandan|
+Tanjung Pinang|
+Tanjungbalai|
+Tapak Tuan|
+Tapanuli Selatan|
+Tapanuli Tengah|
+Tapanuli Utara|
+Tarempa|
+Tarutung|
+Tebing Tinggi|
+Tebo|
+Teluk Dalam|
+Teluk Kuantan|
+Tembilahan|
+Toba Samosir|
+Toboali|
+Tuapejat|
+Tulang Bawang|
+Tulang Bawang Barat|
+Tulang Bawang Tengah|
+Way Kanan}
