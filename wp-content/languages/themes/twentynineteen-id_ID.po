@@ -19,6 +19,11 @@ msgstr "Maaf, tapi tak ada yang cocok dengan terma pencarian Anda. Silakan coba 
 msgid "Nothing Found"
 msgstr "Tak ada apapun"
 
+#. translators: 1: Link to WP admin new post page.
+#: template-parts/content/content-none.php:26
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Siap menerbitkan pos pertamamu? <a href=\"%1$s\">Mulailah di sini</a>."
+
 #: comments.php:95
 msgid "Previous"
 msgstr "Sebelumnya"
@@ -28,8 +33,8 @@ msgid "Next"
 msgstr "Selanjutnya"
 
 #: image.php:52 template-parts/content/content-page.php:27
-#: template-parts/content/content-single.php:40
 #: template-parts/content/content.php:49
+#: template-parts/content/content-single.php:40
 msgid "Pages:"
 msgstr "Laman:"
 
@@ -57,11 +62,9 @@ msgstr "Sepertinya tidak ditemukan apapun di sini. Mungkin coba pencarian?"
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
 msgstr "Tampaknya kami tak bisa menemukan apa yang Anda inginkan. Mungkin pencarian bisa membantu."
 
-#. translators: %s: Post title.
 #. translators: %s: Post title. Only visible to screen readers.
-#. translators: %s: Post title. Only visible to screen readers.
-#: functions.php:225 template-parts/content/content-single.php:27
 #: template-parts/content/content.php:36
+#: template-parts/content/content-single.php:27
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
 msgstr "Lanjutkan membaca<span class=\"screen-reader-text\"> \"%s\"</span>"
 
@@ -73,7 +76,6 @@ msgstr "Pos Sebelumnya"
 msgid "Top Menu"
 msgstr "Menu Atas"
 
-#. translators: Used between list items, there is a space after the comma.
 #. translators: Used between list items, there is a space after the comma.
 #: inc/template-tags.php:86 inc/template-tags.php:98
 msgid ", "
