@@ -20,8 +20,6 @@
 /tag/wordpress/
 /wp-content/plugins/contact-form-7/includes/css/styles.css
 /wp-content/plugins/contact-form-7/includes/js/scripts.js
-/wp-content/plugins/creame-whatsapp-me/public/css/joinchat.min.css
-/wp-content/plugins/creame-whatsapp-me/public/js/joinchat.min.js
 /wp-content/plugins/main-menu-html-site-map/public/css/mmh-sitemap-public.css
 /wp-content/plugins/main-menu-html-site-map/public/js/mmh-sitemap-public.js
 /wp-content/themes/twentyfifteen/css/blocks.css
