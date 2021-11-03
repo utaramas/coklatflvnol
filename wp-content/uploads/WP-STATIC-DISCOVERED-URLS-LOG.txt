@@ -1,12 +1,9 @@
 /
 /0812-1345-587-distributor-resmi-flavanol-indonesia/
-/0812-1345-587-distributor-resmi-flavanol-indonesia/feed/
 /2021/10/
 /2021/11/
-/author/pilar/
 /cara-posting-jualan-di-facebook-tips-posting-jualan/
 /category/flvnol/
-/category/flvnol/feed/
 /category/madu/
 /category/tips/
 /comments/feed/
@@ -17,7 +14,6 @@
 /tag/facebook-marketing/
 /tag/facebook-rasa-google/
 /tag/flvnol-coklat/
-/tag/flvnol-coklat/feed/
 /tag/git-bash/
 /tag/github/
 /tag/localhost/
@@ -54,7 +50,3 @@
 /wp-includes/css/dist/block-library/theme.min.css
 /wp-includes/js/jquery/jquery.js
 /wp-json/
-/wp-json/oembed/1.0/embed
-/wp-json/wp/v2/categories/18
-/wp-json/wp/v2/posts/1847
-/wp-json/wp/v2/tags/19

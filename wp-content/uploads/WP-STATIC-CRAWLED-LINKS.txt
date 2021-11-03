@@ -177,14 +177,10 @@
 /wp-content/uploads\rank-math\rank_math_439b8b642931b202049443b4eaea13a0.xml
 /wp-content/uploads\rank-math\rank_math_65401845391b74acc4278f15444a6118.xml
 /wp-content/uploads\rank-math\rank_math_eabcaa35efff807c6ea2430164e078e6.xml
-/0812-1345-587-distributor-resmi-flavanol-indonesia/feed/
 /2021/10/
 /2021/11/
-/author/pilar/
-/category/flvnol/feed/
 /comments/feed/
 /feed/
-/tag/flvnol-coklat/feed/
 /wp-content/plugins/contact-form-7/includes/css/styles.css
 /wp-content/plugins/contact-form-7/includes/js/scripts.js
 /wp-content/plugins/main-menu-html-site-map/public/css/mmh-sitemap-public.css
