@@ -1,7 +1,12 @@
 /
+/0812-1345-587-distributor-resmi-flavanol-indonesia/
+/0812-1345-587-distributor-resmi-flavanol-indonesia/feed/
 /2021/10/
 /2021/11/
+/author/pilar/
 /cara-posting-jualan-di-facebook-tips-posting-jualan/
+/category/flvnol/
+/category/flvnol/feed/
 /category/madu/
 /category/tips/
 /comments/feed/
@@ -11,6 +16,8 @@
 /tag/docker-compose/
 /tag/facebook-marketing/
 /tag/facebook-rasa-google/
+/tag/flvnol-coklat/
+/tag/flvnol-coklat/feed/
 /tag/git-bash/
 /tag/github/
 /tag/localhost/
@@ -34,6 +41,10 @@
 /wp-content/uploads/2021/10/Cara-Posting-Jualan-di-Facebook-Tips-Posting-Jualan-624x327.png
 /wp-content/uploads/2021/10/Cara-Posting-Jualan-di-Facebook-Tips-Posting-Jualan-768x402.png
 /wp-content/uploads/2021/10/Cara-Posting-Jualan-di-Facebook-Tips-Posting-Jualan.png
+/wp-content/uploads/2021/11/DISTRIBUTOR_RESMI_FLAVANOL_INDONESIA-1024x536.png
+/wp-content/uploads/2021/11/DISTRIBUTOR_RESMI_FLAVANOL_INDONESIA-300x157.png
+/wp-content/uploads/2021/11/DISTRIBUTOR_RESMI_FLAVANOL_INDONESIA-768x402.png
+/wp-content/uploads/2021/11/DISTRIBUTOR_RESMI_FLAVANOL_INDONESIA.png
 /wp-content/uploads/2021/11/pengalaman-belajar-github-otodidak-1024x535.png
 /wp-content/uploads/2021/11/pengalaman-belajar-github-otodidak-300x157.png
 /wp-content/uploads/2021/11/pengalaman-belajar-github-otodidak-624x326.png
@@ -43,3 +54,7 @@
 /wp-includes/css/dist/block-library/theme.min.css
 /wp-includes/js/jquery/jquery.js
 /wp-json/
+/wp-json/oembed/1.0/embed
+/wp-json/wp/v2/categories/18
+/wp-json/wp/v2/posts/1847
+/wp-json/wp/v2/tags/19
