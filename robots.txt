@@ -4,3 +4,5 @@ Allow: /wp-content/uploads/
 Disallow: /wp-content/plugins/
 Disallow: /readme.html
 Disallow: /refer/
+
+Sitemap: https://github.com/utaramas/coklatflvnol/sitemap.xml
