@@ -13,6 +13,7 @@
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width">
+	<meta name="google-site-verification" content="sCxv_wzHjkCu6dUREW306YsZhClA0ppSSv-hr3tcje4" />
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php echo esc_url( get_bloginfo( 'pingback_url' ) ); ?>">
 	<!--[if lt IE 9]>
