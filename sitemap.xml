@@ -54,16 +54,3 @@ sitemap:
     {% endunless %}
   {% endfor %}
 </urlset>
-3. Add Front Matter to posts/pages (Optinal)
-Now we can add the following optional Front Matter markup to posts and pages
-
----
-layout: post
-title:  "Hello world!"
-date:   2018-01-01 16:16:01 -0600
-sitemap:
-  lastmod: 2018-01-02
-  priority: 0.7
-  changefreq: 'monthly'
-  exclude: 'yes'
----
