@@ -4,7 +4,8 @@
 /author/pilar/
 /comments/feed/
 /feed/
-/welcome-to-jekyll/feed/
+/my-example-post/feed/
+/some-articles-are-just-so-short-that-we-have-to-make-the-footer-stick/feed/
 /wp-content/plugins/contact-form-7/includes/css/styles.css
 /wp-content/plugins/contact-form-7/includes/js/scripts.js
 /wp-content/plugins/main-menu-html-site-map/public/css/mmh-sitemap-public.css
@@ -35,4 +36,5 @@
 /wp-includes/js/jquery/jquery.js
 /wp-json/
 /wp-json/oembed/1.0/embed
-/wp-json/wp/v2/posts/1856
+/wp-json/wp/v2/posts/1858
+/wp-json/wp/v2/posts/1860

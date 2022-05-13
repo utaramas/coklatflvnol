@@ -10,7 +10,11 @@
 /category/tips/
 /comments/feed/
 /feed/
+/my-example-post/
+/my-example-post/feed/
 /pengalaman-belajar-github-secara-otodidak/
+/some-articles-are-just-so-short-that-we-have-to-make-the-footer-stick/
+/some-articles-are-just-so-short-that-we-have-to-make-the-footer-stick/feed/
 /tag/000webhost/
 /tag/docker-compose/
 /tag/facebook-marketing/
@@ -24,7 +28,6 @@
 /tag/wamp-server/
 /tag/wordpress/
 /welcome-to-jekyll/
-/welcome-to-jekyll/feed/
 /wp-content/plugins/contact-form-7/includes/css/styles.css
 /wp-content/plugins/contact-form-7/includes/js/scripts.js
 /wp-content/plugins/main-menu-html-site-map/public/css/mmh-sitemap-public.css
@@ -55,4 +58,5 @@
 /wp-includes/js/jquery/jquery.js
 /wp-json/
 /wp-json/oembed/1.0/embed
-/wp-json/wp/v2/posts/1856
+/wp-json/wp/v2/posts/1858
+/wp-json/wp/v2/posts/1860
