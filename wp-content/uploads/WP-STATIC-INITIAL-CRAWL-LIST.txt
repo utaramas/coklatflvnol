@@ -15,6 +15,7 @@
 /coklatflvnol/kontak/
 /coklatflvnol/pengalaman-belajar-github-secara-otodidak/
 /coklatflvnol/sitemap/
+/coklatflvnol/welcome-to-jekyll/
 /favicon.ico
 /kontak/
 /laman/page/1
@@ -47,6 +48,7 @@
 /tag/wamp-server/page/1
 /tag/wordpress/
 /tag/wordpress/page/1
+/welcome-to-jekyll/
 /wp-content/themes/twentyfifteen\assets\pier-seagull.jpg
 /wp-content/themes/twentyfifteen\assets\pier-seagulls.jpg
 /wp-content/themes/twentyfifteen\assets\pier-sunset.jpg
@@ -175,7 +177,5 @@
 /wp-content/uploads\2021\11\pengalaman-belajar-github-otodidak-624x326.png
 /wp-content/uploads\2021\11\pengalaman-belajar-github-otodidak-768x401.png
 /wp-content/uploads\2021\11\pengalaman-belajar-github-otodidak.png
-/wp-content/uploads\rank-math\rank_math_029cc30b510e847511208d8675866909.xml
-/wp-content/uploads\rank-math\rank_math_439b8b642931b202049443b4eaea13a0.xml
-/wp-content/uploads\rank-math\rank_math_65401845391b74acc4278f15444a6118.xml
-/wp-content/uploads\rank-math\rank_math_eabcaa35efff807c6ea2430164e078e6.xml
+/wp-content/uploads\rank-math\rank_math_1de0d5373ac306d7072435d4311c3825.xml
+/wp-content/uploads\rank-math\rank_math_e604f5fe01bfda3c9a4f0b8baec2b8c7.xml
