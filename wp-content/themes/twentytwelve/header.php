@@ -19,6 +19,15 @@
 <html <?php language_attributes(); ?>>
 <!--<![endif]-->
 <head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QQTJVWTDME"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QQTJVWTDME');
+</script>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <meta name="viewport" content="width=device-width" />
 	<meta name="google-site-verification" content="ockqUscGpnWv0gEPtVpqPuX4jLTKcNivLeG_75wRUd4" />
