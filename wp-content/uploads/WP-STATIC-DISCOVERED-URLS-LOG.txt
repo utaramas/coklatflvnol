@@ -3,6 +3,7 @@
 /2021/10/
 /2021/11/
 /2022/05/
+/about-us/
 /author/pilar/
 /cara-posting-jualan-di-facebook-tips-posting-jualan/
 /category/flvnol/
@@ -10,11 +11,11 @@
 /category/tips/
 /comments/feed/
 /feed/
+/kontak/
 /my-example-post/
-/my-example-post/feed/
 /pengalaman-belajar-github-secara-otodidak/
+/sitemap/
 /some-articles-are-just-so-short-that-we-have-to-make-the-footer-stick/
-/some-articles-are-just-so-short-that-we-have-to-make-the-footer-stick/feed/
 /tag/000webhost/
 /tag/docker-compose/
 /tag/facebook-marketing/
@@ -32,11 +33,10 @@
 /wp-content/plugins/contact-form-7/includes/js/scripts.js
 /wp-content/plugins/main-menu-html-site-map/public/css/mmh-sitemap-public.css
 /wp-content/plugins/main-menu-html-site-map/public/js/mmh-sitemap-public.js
-/wp-content/themes/twentyfifteen/css/blocks.css
-/wp-content/themes/twentyfifteen/genericons/genericons.css
-/wp-content/themes/twentyfifteen/js/functions.js
-/wp-content/themes/twentyfifteen/js/skip-link-focus-fix.js
-/wp-content/themes/twentyfifteen/style.css
+/wp-content/themes/kai-12/app.css
+/wp-content/themes/kai-12/style.css
+/wp-content/themes/twentytwelve/css/blocks.css
+/wp-content/themes/twentytwelve/js/navigation.js
 /wp-content/uploads/2020/10/297x297_favicon_ib-150x150.png
 /wp-content/uploads/2020/10/297x297_favicon_ib.png
 /wp-content/uploads/2021/10/Cara-Posting-Jualan-di-Facebook-Tips-Posting-Jualan-1024x536.png
@@ -57,6 +57,3 @@
 /wp-includes/css/dist/block-library/theme.min.css
 /wp-includes/js/jquery/jquery.js
 /wp-json/
-/wp-json/oembed/1.0/embed
-/wp-json/wp/v2/posts/1858
-/wp-json/wp/v2/posts/1860
