@@ -33,10 +33,9 @@
 /wp-content/plugins/contact-form-7/includes/js/scripts.js
 /wp-content/plugins/main-menu-html-site-map/public/css/mmh-sitemap-public.css
 /wp-content/plugins/main-menu-html-site-map/public/js/mmh-sitemap-public.js
-/wp-content/themes/kai-12/app.css
-/wp-content/themes/kai-12/style.css
 /wp-content/themes/twentytwelve/css/blocks.css
 /wp-content/themes/twentytwelve/js/navigation.js
+/wp-content/themes/twentytwelve/style.css
 /wp-content/uploads/2020/10/297x297_favicon_ib-150x150.png
 /wp-content/uploads/2020/10/297x297_favicon_ib.png
 /wp-content/uploads/2021/10/Cara-Posting-Jualan-di-Facebook-Tips-Posting-Jualan-1024x536.png

@@ -26,9 +26,9 @@
 			<?php if ( is_single() ) : ?>
 			<h1 class="entry-title"><?php the_title(); ?></h1>
 			<?php else : ?>
-			<h2 class="entry-title">
+			<h1 class="entry-title">
 				<a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a>
-			</h2>
+			</h1>
 			<?php endif; // is_single() ?>
 			<?php if ( comments_open() ) : ?>
 				<div class="comments-link">
