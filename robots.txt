@@ -1,8 +1,4 @@
-User-Agent: *
-Allow: /?display=wide
-Allow: /wp-content/uploads/
-Disallow: /wp-content/plugins/
-Disallow: /readme.html
-Disallow: /refer/
+User-agent: *
+Allow: /
 
 Sitemap: https://utaramas.github.io/coklatflvnol/sitemap.xml
