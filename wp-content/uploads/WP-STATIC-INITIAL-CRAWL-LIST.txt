@@ -1,4 +1,5 @@
 /
+/%d0%be%d1%82%d0%b5%d0%bb%d1%8c-%d0%bd%d0%b0-%d0%b1%d0%b0%d0%bb%d0%b8-%d1%81-%d0%b1%d0%b0%d1%81%d1%81%d0%b5%d0%b9%d0%bd%d0%be%d0%bc-%d0%bd%d0%b0%d0%b4-%d0%be%d0%b1%d1%80%d1%8b%d0%b2%d0%be%d0%bc-%d1%81/
 /0812-1345-587-distributor-resmi-flavanol-indonesia/
 /about-us/
 /cara-posting-jualan-di-facebook-tips-posting-jualan/
@@ -9,6 +10,7 @@
 /category/tips/
 /category/tips/page/1
 /coklatflvnol/
+/coklatflvnol/%d0%be%d1%82%d0%b5%d0%bb%d1%8c-%d0%bd%d0%b0-%d0%b1%d0%b0%d0%bb%d0%b8-%d1%81-%d0%b1%d0%b0%d1%81%d1%81%d0%b5%d0%b9%d0%bd%d0%be%d0%bc-%d0%bd%d0%b0%d0%b4-%d0%be%d0%b1%d1%80%d1%8b%d0%b2%d0%be%d0%bc-%d1%81/
 /coklatflvnol/0812-1345-587-distributor-resmi-flavanol-indonesia/
 /coklatflvnol/about-us/
 /coklatflvnol/cara-posting-jualan-di-facebook-tips-posting-jualan/
@@ -174,5 +176,12 @@
 /wp-content/uploads\2021\11\pengalaman-belajar-github-otodidak-624x326.png
 /wp-content/uploads\2021\11\pengalaman-belajar-github-otodidak-768x401.png
 /wp-content/uploads\2021\11\pengalaman-belajar-github-otodidak.png
+/wp-content/uploads\2022\05\отель-на-бали-с-бассейном-над-обрывом-со-стеклянным-дном-the-edge-бали-отзывы-покупателей-реальные-фотографии-1024x576.png
+/wp-content/uploads\2022\05\отель-на-бали-с-бассейном-над-обрывом-со-стеклянным-дном-the-edge-бали-отзывы-покупателей-реальные-фотографии-150x150.png
+/wp-content/uploads\2022\05\отель-на-бали-с-бассейном-над-обрывом-со-стеклянным-дном-the-edge-бали-отзывы-покупателей-реальные-фотографии-1536x864.png
+/wp-content/uploads\2022\05\отель-на-бали-с-бассейном-над-обрывом-со-стеклянным-дном-the-edge-бали-отзывы-покупателей-реальные-фотографии-300x169.png
+/wp-content/uploads\2022\05\отель-на-бали-с-бассейном-над-обрывом-со-стеклянным-дном-the-edge-бали-отзывы-покупателей-реальные-фотографии-624x351.png
+/wp-content/uploads\2022\05\отель-на-бали-с-бассейном-над-обрывом-со-стеклянным-дном-the-edge-бали-отзывы-покупателей-реальные-фотографии-768x432.png
+/wp-content/uploads\2022\05\отель-на-бали-с-бассейном-над-обрывом-со-стеклянным-дном-the-edge-бали-отзывы-покупателей-реальные-фотографии.png
 /wp-content/uploads\rank-math\rank_math_1de0d5373ac306d7072435d4311c3825.xml
 /wp-content/uploads\rank-math\rank_math_e604f5fe01bfda3c9a4f0b8baec2b8c7.xml
