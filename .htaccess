@@ -9,6 +9,7 @@
 # Setiap perubahan pada arahan di antara penanda berikut akan ditimpa.
 <IfModule mod_rewrite.c>
 RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
 RewriteBase /coklatflvnol/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f

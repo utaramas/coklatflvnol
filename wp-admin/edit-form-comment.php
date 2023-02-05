@@ -10,6 +10,11 @@
 if ( ! defined( 'ABSPATH' ) ) {
 	die( '-1' );
 }
+
+/**
+ * @global WP_Comment $comment Global comment object.
+ */
+global $comment;
 ?>
 <form name="post" action="comment.php" method="post" id="post">
 <?php wp_nonce_field( 'update-comment_' . $comment->comment_ID ); ?>
@@ -52,7 +57,7 @@ if ( 'approved' === wp_get_comment_status( $comment ) && $comment->comment_post_
 <tr>
 	<td class="first"><label for="email"><?php _e( 'Email' ); ?></label></td>
 	<td>
-		<input type="text" name="newcomment_author_email" size="30" value="<?php echo $comment->comment_author_email; ?>" id="email" />
+		<input type="text" name="newcomment_author_email" size="30" value="<?php echo esc_attr( $comment->comment_author_email ); ?>" id="email" />
 	</td>
 </tr>
 <tr>
@@ -124,9 +129,9 @@ switch ( $comment->comment_approved ) {
 $submitted = sprintf(
 	/* translators: 1: Comment date, 2: Comment time. */
 	__( '%1$s at %2$s' ),
-	/* translators: Publish box date format, see https://www.php.net/date */
+	/* translators: Publish box date format, see https://www.php.net/manual/datetime.format.php */
 	date_i18n( _x( 'M j, Y', 'publish box date format' ), strtotime( $comment->comment_date ) ),
-	/* translators: Publish box time format, see https://www.php.net/date */
+	/* translators: Publish box time format, see https://www.php.net/manual/datetime.format.php */
 	date_i18n( _x( 'H:i', 'publish box time format' ), strtotime( $comment->comment_date ) )
 );
 ?>
@@ -139,7 +144,14 @@ printf( __( 'Submitted on: %s' ), '<b>' . $submitted . '</b>' );
 <a href="#edit_timestamp" class="edit-timestamp hide-if-no-js"><span aria-hidden="true"><?php _e( 'Edit' ); ?></span> <span class="screen-reader-text"><?php _e( 'Edit date and time' ); ?></span></a>
 <fieldset id='timestampdiv' class='hide-if-js'>
 <legend class="screen-reader-text"><?php _e( 'Date and time' ); ?></legend>
-<?php touch_time( ( 'editcomment' === $action ), 0 ); ?>
+<?php
+/**
+ * @global string $action
+ */
+global $action;
+
+touch_time( ( 'editcomment' === $action ), 0 );
+?>
 </fieldset>
 </div>
 

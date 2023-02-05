@@ -31,7 +31,7 @@ if ( ! function_exists( 'wp_install' ) ) :
 	 * @param string $blog_title    Site title.
 	 * @param string $user_name     User's username.
 	 * @param string $user_email    User's email.
-	 * @param bool   $public        Whether site is public.
+	 * @param bool   $is_public     Whether the site is public.
 	 * @param string $deprecated    Optional. Not used.
 	 * @param string $user_password Optional. User's chosen password. Default empty (random password).
 	 * @param string $language      Optional. Language chosen. Default empty.
@@ -44,7 +44,7 @@ if ( ! function_exists( 'wp_install' ) ) :
 	 *     @type string $password_message The explanatory message regarding the password.
 	 * }
 	 */
-	function wp_install( $blog_title, $user_name, $user_email, $public, $deprecated = '', $user_password = '', $language = '' ) {
+	function wp_install( $blog_title, $user_name, $user_email, $is_public, $deprecated = '', $user_password = '', $language = '' ) {
 		if ( ! empty( $deprecated ) ) {
 			_deprecated_argument( __FUNCTION__, '2.6.0' );
 		}
@@ -57,7 +57,7 @@ if ( ! function_exists( 'wp_install' ) ) :
 
 		update_option( 'blogname', $blog_title );
 		update_option( 'admin_email', $user_email );
-		update_option( 'blog_public', $public );
+		update_option( 'blog_public', $is_public );
 
 		// Freshness of site - in the future, this could get more specific about actions taken, perhaps.
 		update_option( 'fresh_site', 1 );
@@ -71,7 +71,7 @@ if ( ! function_exists( 'wp_install' ) ) :
 		update_option( 'siteurl', $guessurl );
 
 		// If not a public site, don't ping.
-		if ( ! $public ) {
+		if ( ! $is_public ) {
 			update_option( 'default_pingback_flag', 0 );
 		}
 
@@ -88,7 +88,7 @@ if ( ! function_exists( 'wp_install' ) ) :
 			$user_password = wp_generate_password( 12, false );
 			$message       = __( '<strong><em>Note that password</em></strong> carefully! It is a <em>random</em> password that was generated just for you.' );
 			$user_id       = wp_create_user( $user_name, $user_password, $user_email );
-			update_user_option( $user_id, 'default_password_nag', true, true );
+			update_user_meta( $user_id, 'default_password_nag', true );
 			$email_password = true;
 			$user_created   = true;
 		} elseif ( ! $user_id ) {
@@ -159,24 +159,7 @@ if ( ! function_exists( 'wp_install_defaults' ) ) :
 		/* translators: Default category slug. */
 		$cat_slug = sanitize_title( _x( 'Uncategorized', 'Default category slug' ) );
 
-		if ( global_terms_enabled() ) {
-			$cat_id = $wpdb->get_var( $wpdb->prepare( "SELECT cat_ID FROM {$wpdb->sitecategories} WHERE category_nicename = %s", $cat_slug ) );
-			if ( null == $cat_id ) {
-				$wpdb->insert(
-					$wpdb->sitecategories,
-					array(
-						'cat_ID'            => 0,
-						'cat_name'          => $cat_name,
-						'category_nicename' => $cat_slug,
-						'last_updated'      => current_time( 'mysql', true ),
-					)
-				);
-				$cat_id = $wpdb->insert_id;
-			}
-			update_option( 'default_category', $cat_id );
-		} else {
-			$cat_id = 1;
-		}
+		$cat_id = 1;
 
 		$wpdb->insert(
 			$wpdb->terms,
@@ -249,6 +232,11 @@ if ( ! function_exists( 'wp_install_defaults' ) ) :
 				'post_content_filtered' => '',
 			)
 		);
+
+		if ( is_multisite() ) {
+			update_posts_count();
+		}
+
 		$wpdb->insert(
 			$wpdb->term_relationships,
 			array(
@@ -267,11 +255,15 @@ if ( ! function_exists( 'wp_install_defaults' ) ) :
 
 		$first_comment_author = ! empty( $first_comment_author ) ? $first_comment_author : __( 'A WordPress Commenter' );
 		$first_comment_email  = ! empty( $first_comment_email ) ? $first_comment_email : 'wapuu@wordpress.example';
-		$first_comment_url    = ! empty( $first_comment_url ) ? $first_comment_url : 'https://wordpress.org/';
-		$first_comment        = ! empty( $first_comment ) ? $first_comment : __(
-			'Hi, this is a comment.
+		$first_comment_url    = ! empty( $first_comment_url ) ? $first_comment_url : esc_url( __( 'https://wordpress.org/' ) );
+		$first_comment        = ! empty( $first_comment ) ? $first_comment : sprintf(
+			/* translators: %s: Gravatar URL. */
+			__(
+				'Hi, this is a comment.
 To get started with moderating, editing, and deleting comments, please visit the Comments screen in the dashboard.
-Commenter avatars come from <a href="https://gravatar.com">Gravatar</a>.'
+Commenter avatars come from <a href="%s">Gravatar</a>.'
+			),
+			esc_url( __( 'https://en.gravatar.com/' ) )
 		);
 		$wpdb->insert(
 			$wpdb->comments,
@@ -403,59 +395,13 @@ Commenter avatars come from <a href="https://gravatar.com">Gravatar</a>.'
 
 		// Set up default widgets for default theme.
 		update_option(
-			'widget_search',
+			'widget_block',
 			array(
-				2              => array( 'title' => '' ),
-				'_multiwidget' => 1,
-			)
-		);
-		update_option(
-			'widget_recent-posts',
-			array(
-				2              => array(
-					'title'  => '',
-					'number' => 5,
-				),
-				'_multiwidget' => 1,
-			)
-		);
-		update_option(
-			'widget_recent-comments',
-			array(
-				2              => array(
-					'title'  => '',
-					'number' => 5,
-				),
-				'_multiwidget' => 1,
-			)
-		);
-		update_option(
-			'widget_archives',
-			array(
-				2              => array(
-					'title'    => '',
-					'count'    => 0,
-					'dropdown' => 0,
-				),
-				'_multiwidget' => 1,
-			)
-		);
-		update_option(
-			'widget_categories',
-			array(
-				2              => array(
-					'title'        => '',
-					'count'        => 0,
-					'hierarchical' => 0,
-					'dropdown'     => 0,
-				),
-				'_multiwidget' => 1,
-			)
-		);
-		update_option(
-			'widget_meta',
-			array(
-				2              => array( 'title' => '' ),
+				2              => array( 'content' => '<!-- wp:search /-->' ),
+				3              => array( 'content' => '<!-- wp:group --><div class="wp-block-group"><!-- wp:heading --><h2>' . __( 'Recent Posts' ) . '</h2><!-- /wp:heading --><!-- wp:latest-posts /--></div><!-- /wp:group -->' ),
+				4              => array( 'content' => '<!-- wp:group --><div class="wp-block-group"><!-- wp:heading --><h2>' . __( 'Recent Comments' ) . '</h2><!-- /wp:heading --><!-- wp:latest-comments {"displayAvatar":false,"displayDate":false,"displayExcerpt":false} /--></div><!-- /wp:group -->' ),
+				5              => array( 'content' => '<!-- wp:group --><div class="wp-block-group"><!-- wp:heading --><h2>' . __( 'Archives' ) . '</h2><!-- /wp:heading --><!-- wp:archives /--></div><!-- /wp:group -->' ),
+				6              => array( 'content' => '<!-- wp:group --><div class="wp-block-group"><!-- wp:heading --><h2>' . __( 'Categories' ) . '</h2><!-- /wp:heading --><!-- wp:categories /--></div><!-- /wp:group -->' ),
 				'_multiwidget' => 1,
 			)
 		);
@@ -464,18 +410,18 @@ Commenter avatars come from <a href="https://gravatar.com">Gravatar</a>.'
 			array(
 				'wp_inactive_widgets' => array(),
 				'sidebar-1'           => array(
-					0 => 'search-2',
-					1 => 'recent-posts-2',
-					2 => 'recent-comments-2',
+					0 => 'block-2',
+					1 => 'block-3',
+					2 => 'block-4',
 				),
 				'sidebar-2'           => array(
-					0 => 'archives-2',
-					1 => 'categories-2',
-					2 => 'meta-2',
+					0 => 'block-5',
+					1 => 'block-6',
 				),
 				'array_version'       => 3,
 			)
 		);
+
 		if ( ! is_multisite() ) {
 			update_user_meta( $user_id, 'show_welcome_panel', 1 );
 		} elseif ( ! is_super_admin( $user_id ) && ! metadata_exists( 'user', $user_id, 'show_welcome_panel' ) ) {
@@ -586,17 +532,18 @@ function wp_install_maybe_enable_pretty_permalinks() {
 
 if ( ! function_exists( 'wp_new_blog_notification' ) ) :
 	/**
-	 * Notifies the site admin that the setup is complete.
+	 * Notifies the site admin that the installation of WordPress is complete.
 	 *
-	 * Sends an email with wp_mail to the new administrator that the site setup is complete,
+	 * Sends an email to the new administrator that the installation is complete
 	 * and provides them with a record of their login credentials.
 	 *
 	 * @since 2.1.0
 	 *
 	 * @param string $blog_title Site title.
-	 * @param string $blog_url   Site url.
-	 * @param int    $user_id    User ID.
-	 * @param string $password   User's Password.
+	 * @param string $blog_url   Site URL.
+	 * @param int    $user_id    Administrator's user ID.
+	 * @param string $password   Administrator's password. Note that a placeholder message is
+	 *                           usually passed instead of the actual password.
 	 */
 	function wp_new_blog_notification( $blog_title, $blog_url, $user_id, $password ) {
 		$user      = new WP_User( $user_id );
@@ -629,7 +576,40 @@ https://wordpress.org/
 			$login_url
 		);
 
-		wp_mail( $email, __( 'New WordPress Site' ), $message );
+		$installed_email = array(
+			'to'      => $email,
+			'subject' => __( 'New WordPress Site' ),
+			'message' => $message,
+			'headers' => '',
+		);
+
+		/**
+		 * Filters the contents of the email sent to the site administrator when WordPress is installed.
+		 *
+		 * @since 5.6.0
+		 *
+		 * @param array $installed_email {
+		 *     Used to build wp_mail().
+		 *
+		 *     @type string $to      The email address of the recipient.
+		 *     @type string $subject The subject of the email.
+		 *     @type string $message The content of the email.
+		 *     @type string $headers Headers.
+		 * }
+		 * @param WP_User $user          The site administrator user object.
+		 * @param string  $blog_title    The site title.
+		 * @param string  $blog_url      The site URL.
+		 * @param string  $password      The site administrator's password. Note that a placeholder message
+		 *                               is usually passed instead of the user's actual password.
+		 */
+		$installed_email = apply_filters( 'wp_installed_email', $installed_email, $user, $blog_title, $blog_url, $password );
+
+		wp_mail(
+			$installed_email['to'],
+			$installed_email['subject'],
+			$installed_email['message'],
+			$installed_email['headers']
+		);
 	}
 endif;
 
@@ -840,6 +820,18 @@ function upgrade_all() {
 		upgrade_550();
 	}
 
+	if ( $wp_current_db_version < 49752 ) {
+		upgrade_560();
+	}
+
+	if ( $wp_current_db_version < 51917 ) {
+		upgrade_590();
+	}
+
+	if ( $wp_current_db_version < 53011 ) {
+		upgrade_600();
+	}
+
 	maybe_disable_link_manager();
 
 	maybe_disable_automattic_widgets();
@@ -988,8 +980,8 @@ function upgrade_110() {
 	if ( ! $got_gmt_fields ) {
 
 		// Add or subtract time to all dates, to get GMT dates.
-		$add_hours   = intval( $diff_gmt_weblogger );
-		$add_minutes = intval( 60 * ( $diff_gmt_weblogger - $add_hours ) );
+		$add_hours   = (int) $diff_gmt_weblogger;
+		$add_minutes = (int) ( 60 * ( $diff_gmt_weblogger - $add_hours ) );
 		$wpdb->query( "UPDATE $wpdb->posts SET post_date_gmt = DATE_ADD(post_date, INTERVAL '$add_hours:$add_minutes' HOUR_MINUTE)" );
 		$wpdb->query( "UPDATE $wpdb->posts SET post_modified = post_date" );
 		$wpdb->query( "UPDATE $wpdb->posts SET post_modified_gmt = DATE_ADD(post_modified, INTERVAL '$add_hours:$add_minutes' HOUR_MINUTE) WHERE post_modified != '0000-00-00 00:00:00'" );
@@ -1078,7 +1070,7 @@ function upgrade_130() {
 			$limit    = $option->dupes - 1;
 			$dupe_ids = $wpdb->get_col( $wpdb->prepare( "SELECT option_id FROM $wpdb->options WHERE option_name = %s LIMIT %d", $option->option_name, $limit ) );
 			if ( $dupe_ids ) {
-				$dupe_ids = join( ',', $dupe_ids );
+				$dupe_ids = implode( ',', $dupe_ids );
 				$wpdb->query( "DELETE FROM $wpdb->options WHERE option_id IN ($dupe_ids)" );
 			}
 		}
@@ -1620,8 +1612,8 @@ function upgrade_280() {
 		$start = 0;
 		while ( $rows = $wpdb->get_results( "SELECT option_name, option_value FROM $wpdb->options ORDER BY option_id LIMIT $start, 20" ) ) {
 			foreach ( $rows as $row ) {
-				$value = $row->option_value;
-				if ( ! @unserialize( $value ) ) {
+				$value = maybe_unserialize( $row->option_value );
+				if ( $value === $row->option_value ) {
 					$value = stripslashes( $value );
 				}
 				if ( $value !== $row->option_value ) {
@@ -1882,7 +1874,6 @@ function upgrade_370() {
  *
  * @ignore
  * @since 3.7.2
- * @since 3.8.0
  *
  * @global int $wp_current_db_version The old (current) database version.
  */
@@ -2014,7 +2005,7 @@ function upgrade_430_fix_comments() {
 		return;
 	}
 
-	$allowed_length = intval( $content_length['length'] ) - 10;
+	$allowed_length = (int) $content_length['length'] - 10;
 
 	$comments = $wpdb->get_results(
 		"SELECT `comment_ID` FROM `{$wpdb->comments}`
@@ -2199,6 +2190,98 @@ function upgrade_550() {
 	if ( $wp_current_db_version < 48748 ) {
 		update_option( 'finished_updating_comment_type', 0 );
 		wp_schedule_single_event( time() + ( 1 * MINUTE_IN_SECONDS ), 'wp_update_comment_type_batch' );
+	}
+}
+
+/**
+ * Executes changes made in WordPress 5.6.0.
+ *
+ * @ignore
+ * @since 5.6.0
+ */
+function upgrade_560() {
+	global $wp_current_db_version, $wpdb;
+
+	if ( $wp_current_db_version < 49572 ) {
+		/*
+		 * Clean up the `post_category` column removed from schema in version 2.8.0.
+		 * Its presence may conflict with `WP_Post::__get()`.
+		 */
+		$post_category_exists = $wpdb->get_var( "SHOW COLUMNS FROM $wpdb->posts LIKE 'post_category'" );
+		if ( ! is_null( $post_category_exists ) ) {
+			$wpdb->query( "ALTER TABLE $wpdb->posts DROP COLUMN `post_category`" );
+		}
+
+		/*
+		 * When upgrading from WP < 5.6.0 set the core major auto-updates option to `unset` by default.
+		 * This overrides the same option from populate_options() that is intended for new installs.
+		 * See https://core.trac.wordpress.org/ticket/51742.
+		 */
+		update_option( 'auto_update_core_major', 'unset' );
+	}
+
+	if ( $wp_current_db_version < 49632 ) {
+		/*
+		 * Regenerate the .htaccess file to add the `HTTP_AUTHORIZATION` rewrite rule.
+		 * See https://core.trac.wordpress.org/ticket/51723.
+		 */
+		save_mod_rewrite_rules();
+	}
+
+	if ( $wp_current_db_version < 49735 ) {
+		delete_transient( 'dirsize_cache' );
+	}
+
+	if ( $wp_current_db_version < 49752 ) {
+		$results = $wpdb->get_results(
+			$wpdb->prepare(
+				"SELECT 1 FROM {$wpdb->usermeta} WHERE meta_key = %s LIMIT 1",
+				WP_Application_Passwords::USERMETA_KEY_APPLICATION_PASSWORDS
+			)
+		);
+
+		if ( ! empty( $results ) ) {
+			$network_id = get_main_network_id();
+			update_network_option( $network_id, WP_Application_Passwords::OPTION_KEY_IN_USE, 1 );
+		}
+	}
+}
+
+/**
+ * Executes changes made in WordPress 5.9.0.
+ *
+ * @ignore
+ * @since 5.9.0
+ *
+ * @global int $wp_current_db_version The old (current) database version.
+ */
+function upgrade_590() {
+	global $wp_current_db_version;
+
+	if ( $wp_current_db_version < 51917 ) {
+		$crons = _get_cron_array();
+
+		if ( $crons && is_array( $crons ) ) {
+			// Remove errant `false` values, see #53950, #54906.
+			$crons = array_filter( $crons );
+			_set_cron_array( $crons );
+		}
+	}
+}
+
+/**
+ * Executes changes made in WordPress 6.0.0.
+ *
+ * @ignore
+ * @since 6.0.0
+ *
+ * @global int $wp_current_db_version The old (current) database version.
+ */
+function upgrade_600() {
+	global $wp_current_db_version;
+
+	if ( $wp_current_db_version < 53011 ) {
+		wp_update_user_counts();
 	}
 }
 
@@ -2613,6 +2696,8 @@ function deslash( $content ) {
  * Useful for creating new tables and updating existing tables to a new structure.
  *
  * @since 1.5.0
+ * @since 6.1.0 Ignores display width for integer data types on MySQL 8.0.17 or later,
+ *              to match MySQL behavior. Note: This does not affect MariaDB.
  *
  * @global wpdb $wpdb WordPress database abstraction object.
  *
@@ -2689,8 +2774,12 @@ function dbDelta( $queries = '', $execute = true ) { // phpcs:ignore WordPress.N
 
 	$text_fields = array( 'tinytext', 'text', 'mediumtext', 'longtext' );
 	$blob_fields = array( 'tinyblob', 'blob', 'mediumblob', 'longblob' );
+	$int_fields  = array( 'tinyint', 'smallint', 'mediumint', 'int', 'integer', 'bigint' );
 
-	$global_tables = $wpdb->tables( 'global' );
+	$global_tables  = $wpdb->tables( 'global' );
+	$db_version     = $wpdb->db_version();
+	$db_server_info = $wpdb->db_server_info();
+
 	foreach ( $cqueries as $table => $qry ) {
 		// Upgrade global tables only for the main site. Don't upgrade at all if conditions are not optimal.
 		if ( in_array( $table, $global_tables, true ) && ! wp_should_upgrade_global_tables() ) {
@@ -2791,27 +2880,29 @@ function dbDelta( $queries = '', $execute = true ) { // phpcs:ignore WordPress.N
 					// Normalize columns.
 					foreach ( $index_columns as $id => &$index_column ) {
 						// Extract column name and number of indexed characters (sub_part).
+						// phpcs:disable Squiz.Strings.ConcatenationSpacing.PaddingFound -- don't remove regex indentation
 						preg_match(
 							'/'
-							. '`?'                      // Name can be escaped with a backtick.
-							. '(?P<column_name>'    // 1) Name of the column.
-							. '(?:[0-9a-zA-Z$_-]|[\xC2-\xDF][\x80-\xBF])+'
-							. ')'
-							. '`?'                      // Name can be escaped with a backtick.
-							. '(?:'                     // Optional sub part.
-							. '\s*'                 // Optional white space character between name and opening bracket.
-							. '\('                  // Opening bracket for the sub part.
-							. '\s*'             // Optional white space character after opening bracket.
-							. '(?P<sub_part>'
-							. '\d+'         // 2) Number of indexed characters.
-							. ')'
-							. '\s*'             // Optional white space character before closing bracket.
-							. '\)'                 // Closing bracket for the sub part.
-							. ')?'
+							.   '`?'                      // Name can be escaped with a backtick.
+							.       '(?P<column_name>'    // 1) Name of the column.
+							.           '(?:[0-9a-zA-Z$_-]|[\xC2-\xDF][\x80-\xBF])+'
+							.       ')'
+							.   '`?'                      // Name can be escaped with a backtick.
+							.   '(?:'                     // Optional sub part.
+							.       '\s*'                 // Optional white space character between name and opening bracket.
+							.       '\('                  // Opening bracket for the sub part.
+							.           '\s*'             // Optional white space character after opening bracket.
+							.           '(?P<sub_part>'
+							.               '\d+'         // 2) Number of indexed characters.
+							.           ')'
+							.           '\s*'             // Optional white space character before closing bracket.
+							.       '\)'                  // Closing bracket for the sub part.
+							.   ')?'
 							. '/',
 							$index_column,
 							$index_column_matches
 						);
+						// phpcs:enable
 
 						// Escape the column name with backticks.
 						$index_column = '`' . $index_column_matches['column_name'] . '`';
@@ -2846,6 +2937,19 @@ function dbDelta( $queries = '', $execute = true ) { // phpcs:ignore WordPress.N
 			$tablefield_field_lowercased = strtolower( $tablefield->Field );
 			$tablefield_type_lowercased  = strtolower( $tablefield->Type );
 
+			$tablefield_type_without_parentheses = preg_replace(
+				'/'
+				. '(.+)'       // Field type, e.g. `int`.
+				. '\(\d*\)'    // Display width.
+				. '(.*)'       // Optional attributes, e.g. `unsigned`.
+				. '/',
+				'$1$2',
+				$tablefield_type_lowercased
+			);
+
+			// Get the type without attributes, e.g. `int`.
+			$tablefield_type_base = strtok( $tablefield_type_without_parentheses, ' ' );
+
 			// If the table field exists in the field array...
 			if ( array_key_exists( $tablefield_field_lowercased, $cfields ) ) {
 
@@ -2853,6 +2957,19 @@ function dbDelta( $queries = '', $execute = true ) { // phpcs:ignore WordPress.N
 				preg_match( '|`?' . $tablefield->Field . '`? ([^ ]*( unsigned)?)|i', $cfields[ $tablefield_field_lowercased ], $matches );
 				$fieldtype            = $matches[1];
 				$fieldtype_lowercased = strtolower( $fieldtype );
+
+				$fieldtype_without_parentheses = preg_replace(
+					'/'
+					. '(.+)'       // Field type, e.g. `int`.
+					. '\(\d*\)'    // Display width.
+					. '(.*)'       // Optional attributes, e.g. `unsigned`.
+					. '/',
+					'$1$2',
+					$fieldtype_lowercased
+				);
+
+				// Get the type without attributes, e.g. `int`.
+				$fieldtype_base = strtok( $fieldtype_without_parentheses, ' ' );
 
 				// Is actual field type different from the field type in query?
 				if ( $tablefield->Type != $fieldtype ) {
@@ -2865,6 +2982,21 @@ function dbDelta( $queries = '', $execute = true ) { // phpcs:ignore WordPress.N
 
 					if ( in_array( $fieldtype_lowercased, $blob_fields, true ) && in_array( $tablefield_type_lowercased, $blob_fields, true ) ) {
 						if ( array_search( $fieldtype_lowercased, $blob_fields, true ) < array_search( $tablefield_type_lowercased, $blob_fields, true ) ) {
+							$do_change = false;
+						}
+					}
+
+					if ( in_array( $fieldtype_base, $int_fields, true ) && in_array( $tablefield_type_base, $int_fields, true )
+						&& $fieldtype_without_parentheses === $tablefield_type_without_parentheses
+					) {
+						/*
+						 * MySQL 8.0.17 or later does not support display width for integer data types,
+						 * so if display width is the only difference, it can be safely ignored.
+						 * Note: This is specific to MySQL and does not affect MariaDB.
+						 */
+						if ( version_compare( $db_version, '8.0.17', '>=' )
+							&& ! str_contains( $db_server_info, 'MariaDB' )
+						) {
 							$do_change = false;
 						}
 					}
@@ -3388,33 +3520,6 @@ function pre_schema_upgrade() {
 	}
 }
 
-if ( ! function_exists( 'install_global_terms' ) ) :
-	/**
-	 * Install global terms.
-	 *
-	 * @since 3.0.0
-	 *
-	 * @global wpdb   $wpdb            WordPress database abstraction object.
-	 * @global string $charset_collate
-	 */
-	function install_global_terms() {
-		global $wpdb, $charset_collate;
-		$ms_queries = "
-CREATE TABLE $wpdb->sitecategories (
-  cat_ID bigint(20) NOT NULL auto_increment,
-  cat_name varchar(55) NOT NULL default '',
-  category_nicename varchar(200) NOT NULL default '',
-  last_updated timestamp NOT NULL,
-  PRIMARY KEY  (cat_ID),
-  KEY category_nicename (category_nicename),
-  KEY last_updated (last_updated)
-) $charset_collate;
-";
-		// Now create tables.
-		dbDelta( $ms_queries );
-	}
-endif;
-
 /**
  * Determine if global tables should be upgraded.
  *
@@ -3455,6 +3560,8 @@ function wp_should_upgrade_global_tables() {
 
 	/**
 	 * Filters if upgrade routines should be run on global tables.
+	 *
+	 * @since 4.3.0
 	 *
 	 * @param bool $should_upgrade Whether to run the upgrade routines on global tables.
 	 */
