@@ -170,6 +170,12 @@
 /wp-content/uploads\2021\11\DISTRIBUTOR_RESMI_FLAVANOL_INDONESIA-768x402.png
 /wp-content/uploads\2021\11\DISTRIBUTOR_RESMI_FLAVANOL_INDONESIA-825x510.png
 /wp-content/uploads\2021\11\DISTRIBUTOR_RESMI_FLAVANOL_INDONESIA.png
+/wp-content/uploads\2021\11\cropped-DISTRIBUTOR_RESMI_FLAVANOL_INDONESIA-1024x266.png
+/wp-content/uploads\2021\11\cropped-DISTRIBUTOR_RESMI_FLAVANOL_INDONESIA-150x150.png
+/wp-content/uploads\2021\11\cropped-DISTRIBUTOR_RESMI_FLAVANOL_INDONESIA-300x78.png
+/wp-content/uploads\2021\11\cropped-DISTRIBUTOR_RESMI_FLAVANOL_INDONESIA-624x162.png
+/wp-content/uploads\2021\11\cropped-DISTRIBUTOR_RESMI_FLAVANOL_INDONESIA-768x200.png
+/wp-content/uploads\2021\11\cropped-DISTRIBUTOR_RESMI_FLAVANOL_INDONESIA.png
 /wp-content/uploads\2021\11\pengalaman-belajar-github-otodidak-1024x535.png
 /wp-content/uploads\2021\11\pengalaman-belajar-github-otodidak-150x150.png
 /wp-content/uploads\2021\11\pengalaman-belajar-github-otodidak-300x157.png
