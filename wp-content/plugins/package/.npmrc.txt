@@ -1,2 +1,0 @@
-//.npmrc
-@gaspard-bourgeois:registry=https://npm.pkg.github.com
