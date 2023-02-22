@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://utaramas.github.io/coklatflvnol/sitemap.xml
+Sitemap: https://jadwalimsakiyahramadhan.pages.dev/sitemap.xml
