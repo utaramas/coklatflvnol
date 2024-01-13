@@ -9,12 +9,21 @@
   <body>
     <div class="container">
       <div class="sidebar">
+		<div class="toc">
+			<input type="checkbox" role="button" id="toctoggle" class="toctoggle"><div class="toctitle"><h2>Daftar isi</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctoggle"></label></span></div>
         <nav>
           <ul>
-            <li><a href="">About</a></li>
-            <li><a href="">Portofolio</a></li>
-            <li><a href="">Blog</a></li>
-            <li><a href="">Contact</a></li>
+			<li>1 <a href="#toc1" title="Judul Satu">Judul Satu</a></li>
+			<li>2 <a href="#toc2" title="Judul Dua">Judul Dua</a></li>
+			<li>3 <a href="#toc3" title="Judul Tiga">Judul Tiga</a></li>
+			<li>4 <a href="#toc4" title="Judul Empat">Judul Empat</a></li>
+			<li>5 <a href="#toc5" title="Judul Lima">Judul Lima</a>
+			  <ul>
+			  <li>5.1 <a href="#toc5_1" title="Sub Judul Lima ke Satu">Sub Judul Lima ke Satu</a></li>
+			  <li>5.2 <a href="#toc5_2" title="Sub Judul Lima ke Dua">Sub Judul Lima ke Dua</a></li>
+			  </ul>
+			</li>
+			<li>6 <a href="#toc6" title="Judul Enam">Judul Enam</a></li>
           </ul>
         </nav>
       </div>
@@ -22,17 +31,29 @@
         <section class="hero">
           <img src="online.png" alt="" />
           <div class="hero-content">
-            <h1>Profesi</h1>
-            <br />
-            <h2>Junior Content Writer at Dicoding</h2>
-            <br /><br />
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, aperiam dolore
-              assumenda velit repellendus recusandae magni consectetur mollitia facere incidunt
-              inventore perspiciatis debitis doloribus ullam minima culpa voluptatem. Repellendus,
-              option.
-            </p>
-            <a href="" class="action-btn">Profile Saya</a>
+			<h2 id="toc1">Judul Satu</h2>
+			...isi paragraf satu
+			
+			<h2 id="toc2">Judul Dua</h2>
+			...isi paragraf dua
+			
+			<h2 id="toc3">Judul Tiga</h2>
+			...isi paragraf tiga
+			
+			<h2 id="toc4">Judul Empat</h2>
+			...isi paragraf empat
+			
+			<h2 id="toc5">Judul Lima</h2>
+			...isi paragraf lima
+			
+			<h3 id="toc5_1">Sub Judul Lima ke Satu</h3>
+			...isi paragraf lima part 1
+			
+			<h3 id="toc5_2">Sub Judul Lima ke Dua</h3>
+			...isi paragraf lima part 2
+			
+			<h2 id="toc6">Judul Enam</h2>
+			...isi paragraf enam
           </div>
         </section>
       </main>
