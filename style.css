@@ -15,3 +15,11 @@
 :not(:checked) > .toctogglespan:after {content:']'}
 .toctoggle:checked ~ ul{display:none}
 :target::before {content:''; display:block; height:0px; margin-top:0px; visibility:hidden}
+
+/* Membuat garis di HTML CSS by https://sko.dev/snippet/cara-membuat-garis-di-html-css */
+hr {
+    border: none;
+    height: 1px;
+    color: #333; 
+    background-color: #333;
+}
