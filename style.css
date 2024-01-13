@@ -181,3 +181,21 @@
       width: 20%;
     }
   }
+
+/* Table of Contents by igniel.com */
+.toc {background-color:#f8f9fa; border:1px solid #a2a9b1; padding:10px 13px; display:table; line-height:1.6em;}
+.toc h2 {display:inline-block; margin-right:10px}
+.toc a {text-decoration:none}
+.toc a:hover {text-decoration:underline}
+.toc ul {list-style-type:none; list-style-image:none; margin:0px; padding:0px; text-align:left}
+.toc ul li {list-style-type:none;}
+.toc ul li a {margin-left:.5em}
+.toc ul li ul {margin-left:2em}
+.toctogglelabel {cursor:pointer; color:#0645ad}
+:not(:checked) > .toctoggle {display:inline !important; position:absolute;  opacity:0}
+:not(:checked) > .toctogglespan:before {content:'['}
+.toctoggle:not(:checked) + .toctitle .toctogglelabel:after {content:'sembunyikan';display: inline}
+.toctoggle:checked + .toctitle .toctogglelabel:after {content:'tampilkan'}
+:not(:checked) > .toctogglespan:after {content:']'}
+.toctoggle:checked ~ ul{display:none}
+:target::before {content:''; display:block; height:0px; margin-top:0px; visibility:hidden}
